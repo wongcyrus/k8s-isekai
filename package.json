@@ -1,12 +1,28 @@
 {
-    "name": "k8s-isekai",
-    "main": "index.html",
-    "js-flags": "--expose-gc",
-    "window": {
-        "title": "",
-        "toolbar": false,
-        "width": 816,
-        "height": 624,
-        "icon": "icon/icon.png"
+  "name": "k8s-isekai",
+  "main": "index.html",
+  "js-flags": "--expose-gc",
+  "window": {
+    "title": "",
+    "toolbar": false,
+    "width": 816,
+    "height": 624,
+    "icon": "icon/icon.png"
+  },
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^15.3.0",
+    "prettier": "^3.4.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
     }
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier --write",
+      "git add"
+    ]
+  }
 }

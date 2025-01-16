@@ -1,0 +1,18 @@
+[
+null,
+{"id":1,"expanded":true,"name":"房间","order":1,"parentId":0,"scrollX":808,"scrollY":441},
+{"id":2,"expanded":false,"name":"客厅","order":2,"parentId":1,"scrollX":759.3333333333334,"scrollY":465.6666666666667},
+{"id":3,"expanded":true,"name":"户外","order":3,"parentId":0,"scrollX":1117,"scrollY":1221},
+{"id":4,"expanded":false,"name":"砖屋","order":5,"parentId":3,"scrollX":819,"scrollY":457},
+{"id":5,"expanded":false,"name":"二层1","order":6,"parentId":3,"scrollX":819,"scrollY":457},
+{"id":6,"expanded":false,"name":"二层2","order":7,"parentId":3,"scrollX":580.6666666666666,"scrollY":456},
+{"id":7,"expanded":false,"name":"商店","order":4,"parentId":3,"scrollX":819,"scrollY":457},
+{"id":8,"expanded":false,"name":"餐厅","order":8,"parentId":3,"scrollX":811,"scrollY":503},
+{"id":9,"expanded":false,"name":"酒店 1F","order":9,"parentId":3,"scrollX":811,"scrollY":983},
+{"id":10,"expanded":false,"name":"酒店 2F","order":10,"parentId":3,"scrollX":811,"scrollY":801},
+{"id":11,"expanded":false,"name":"酒店 3F","order":11,"parentId":3,"scrollX":811,"scrollY":904},
+{"id":12,"expanded":false,"name":"澡堂","order":12,"parentId":3,"scrollX":819,"scrollY":457},
+{"id":13,"expanded":false,"name":"森林","order":13,"parentId":0,"scrollX":811,"scrollY":457},
+{"id":14,"expanded":false,"name":"右城","order":14,"parentId":0,"scrollX":974,"scrollY":1296},
+{"id":15,"expanded":false,"name":"瀑布森林","order":15,"parentId":0,"scrollX":1112,"scrollY":1878}
+]

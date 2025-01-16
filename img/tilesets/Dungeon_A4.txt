@@ -1,48 +1,48 @@
-﻿Wall A (Dirt Cave)|壁A（土洞窟）
-Wall B (Rock Cave)|壁B（岩洞窟）
-Wall C (Lava Cave)|壁C（溶岩洞窟）
-Wall D (Ice Cave)|壁D（氷洞窟）
-Wall E (Grass Maze)|壁E（草迷宮）
-Wall F (Crystal)|壁F（水晶）
-Wall G (In Body)|壁G（体内）
-Wall H (Demonic World)|壁H（魔界）
-Wall A (Dirt Cave)|壁A（土洞窟）
-Wall B (Rock Cave)|壁B（岩洞窟）
-Wall C (Lava Cave)|壁C（溶岩洞窟）
-Wall D (Ice Cave)|壁D（氷洞窟）
-Wall E (Grass Maze)|壁E（草迷宮）
-Wall F (Crystal)|壁F（水晶）
-Wall G (In Body)|壁G（体内）
-Wall H (Demonic World)|壁H（魔界）
-Wall I (Stone)|壁I（石）
-Wall J (Brick)|壁J（レンガ）
-Wall K (Brick)|壁K（レンガ）
-Wall L (Stone)|壁L（石）
-Wall M (Stone)|壁M（石）
-Wall N (Castle)|壁N（城）
-Wall O (Fort)|壁O（砦）
-Wall P (Demon Castle)|壁P（魔王城）
-Wall I (Stone)|壁I（石）
-Wall J (Brick)|壁J（レンガ）
-Wall K (Brick)|壁K（レンガ）
-Wall L (Stone)|壁L（石）
-Wall M (Stone)|壁M（石）
-Wall N (Castle)|壁N（城）
-Wall O (Fort)|壁O（砦）
-Wall P (Demon Castle)|壁P（魔王城）
-Wall Q (Temple)|壁Q（神殿）
-Wall R (Marble)|壁R（大理石）
-Wall S (Frozen)|壁S（凍結）
-Wall T (Factory)|壁T（工場）
-Ledge A (Dirt Cave)|段差A（土洞窟）
-Ledge B (Rock Cave)|段差B（岩洞窟）
-Ledge C (Lava Cave)|段差C（溶岩洞窟）
-Ledge D (Ice Cave)|段差D（氷洞窟）
-Wall Q (Temple)|壁Q（神殿）
-Wall R (Marble)|壁R（大理石）
-Wall S (Frozen)|壁S（凍結）
-Wall T (Factory)|壁T（工場）
-Ledge A (Dirt Cave)|段差A（土洞窟）
-Ledge B (Rock Cave)|段差B（岩洞窟）
-Ledge C (Lava Cave)|段差C（溶岩洞窟）
-Ledge D (Ice Cave)|段差D（氷洞窟）
+﻿Wall A (Dirt Cave)|wallA（earth cave）
+Wall B (Rock Cave)|wallB（rock cave）
+Wall C (Lava Cave)|wallC（lava cave）
+Wall D (Ice Cave)|wallD（ice cave）
+Wall E (Grass Maze)|wallE（grass maze）
+Wall F (Crystal)|wallF（crystal）
+Wall G (In Body)|wallG（in vivo）
+Wall H (Demonic World)|wallH（Demonic world）
+Wall A (Dirt Cave)|wallA（earth cave）
+Wall B (Rock Cave)|wallB（rock cave）
+Wall C (Lava Cave)|wallC（lava cave）
+Wall D (Ice Cave)|wallD（ice cave）
+Wall E (Grass Maze)|wallE（grass maze）
+Wall F (Crystal)|wallF（crystal）
+Wall G (In Body)|wallG（in vivo）
+Wall H (Demonic World)|wallH（Demonic world）
+Wall I (Stone)|wallI（stone）
+Wall J (Brick)|wallJ（レンガ）
+Wall K (Brick)|wallK（レンガ）
+Wall L (Stone)|wallL（stone）
+Wall M (Stone)|wallM（stone）
+Wall N (Castle)|wallN（city）
+Wall O (Fort)|wallO（village）
+Wall P (Demon Castle)|wallP（Demon King's Castle）
+Wall I (Stone)|wallI（stone）
+Wall J (Brick)|wallJ（レンガ）
+Wall K (Brick)|wallK（レンガ）
+Wall L (Stone)|wallL（stone）
+Wall M (Stone)|wallM（stone）
+Wall N (Castle)|wallN（city）
+Wall O (Fort)|wallO（village）
+Wall P (Demon Castle)|wallP（Demon King's Castle）
+Wall Q (Temple)|wallQ（temple）
+Wall R (Marble)|wallR（marble）
+Wall S (Frozen)|wallS（Freeze）
+Wall T (Factory)|wallT（workshop）
+Ledge A (Dirt Cave)|step differenceA（earth cave）
+Ledge B (Rock Cave)|step differenceB（rock cave）
+Ledge C (Lava Cave)|step differenceC（lava cave）
+Ledge D (Ice Cave)|step differenceD（ice cave）
+Wall Q (Temple)|wallQ（temple）
+Wall R (Marble)|wallR（marble）
+Wall S (Frozen)|wallS（Freeze）
+Wall T (Factory)|wallT（workshop）
+Ledge A (Dirt Cave)|step differenceA（earth cave）
+Ledge B (Rock Cave)|step differenceB（rock cave）
+Ledge C (Lava Cave)|step differenceC（lava cave）
+Ledge D (Ice Cave)|step differenceD（ice cave）

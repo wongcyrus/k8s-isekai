@@ -1,4 +1,4 @@
 [
 null,
-{"id":1,"battlerName":"zhujue","characterIndex":0,"characterName":"zhujue","classId":1,"equips":[1,1,2,3,4],"faceIndex":0,"faceName":"zhujue","traits":[],"initialLevel":1,"maxLevel":99,"name":"主角","nickname":"","note":"","profile":""}
+{"id":1,"battlerName":"zhujue","characterIndex":0,"characterName":"zhujue","classId":1,"equips":[1,1,2,3,4],"faceIndex":0,"faceName":"zhujue","traits":[],"initialLevel":1,"maxLevel":99,"name":"main character","nickname":"","note":"","profile":""}
 ]

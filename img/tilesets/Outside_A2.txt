@@ -1,32 +1,32 @@
-﻿Meadow|草地
-Dirt (Meadow)|土（草地）
-Road (Meadow)|道（草地）
-Cobblestones A|石畳A
-Bush|茂み
+﻿Meadow|grassland
+Dirt (Meadow)|earth（grassland）
+Road (Meadow)|road（grassland）
+Cobblestones A|stone panA
+Bush|Maoみ
 Road Edging|縁石
-Fencepost A (Wood)|柵A（木製）
-Fissures|ひび割れ
-Dirt|土
-Grass (Dirt)|草地（土）
-Road (Dirt)|道（土）
-Cobblestones A (Snow)|石畳A（雪）
-Bush (Dead)|茂み（枯れ草）
-Road Edging (Snow)|縁石（雪）
-Fencepost B (Metal)|柵B（金属）
-Soil|汚れ
-Sand|砂地
-Grass (Sand)|草地（砂地）
-Road (Sand)|道（砂地）
-Cobblestones B|石畳B
-Bush (Sand)|茂み（砂地）
-Hole|穴
-Fencepost C (Stone)|柵C（石）
-Moss|苔
-Snow|雪
-Dirt (Snow)|土（雪）
-Road (Snow)|道（雪）
+Fencepost A (Wood)|gateA（wooden）
+Fissures|ひびcutれ
+Dirt|earth
+Grass (Dirt)|grassland（earth）
+Road (Dirt)|road（earth）
+Cobblestones A (Snow)|stone panA（Snow）
+Bush (Dead)|Maoみ（dryれGrass）
+Road Edging (Snow)|縁石（Snow）
+Fencepost B (Metal)|gateB（Metal）
+Soil|dirtyれ
+Sand|sandy ground
+Grass (Sand)|grassland（sandy ground）
+Road (Sand)|road（sandy ground）
+Cobblestones B|stone panB
+Bush (Sand)|Maoみ（sandy ground）
+Hole|hole
+Fencepost C (Stone)|gateC（stone）
+Moss|moss
+Snow|Snow
+Dirt (Snow)|earth（Snow）
+Road (Snow)|road（Snow）
 Carpet|カーペット
-Bush (Snow)|茂み（雪）
-Hole|穴
-Fencepost A (Wood, Snow)|柵A（木製・雪）
-Poison Swamp|毒の沼
+Bush (Snow)|Maoみ（Snow）
+Hole|hole
+Fencepost A (Wood, Snow)|gateA（wooden・Snow）
+Poison Swamp|poisonのSwamp

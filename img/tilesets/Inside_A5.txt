@@ -1,129 +1,129 @@
-﻿Darkness|暗闇
-Wire Mesh|金網
-Stone Bridge (V, Left)|石の橋（縦・左）
-Stone Bridge (V Center)|石の橋（縦・中央）
-Stone Bridge (V, Riight)|石の橋（縦・右）
-Stone Bridge (H, Top)|石の橋（横・上）
-Stone Bridge (H Center)|石の橋（横・中央）
-Broken Bridge (H, Top)|壊れた橋（横・上）
-Transparent|透明
-Wire Mesh|金網
-Broken Bridge (V, Left)|壊れた橋（縦・左）
-Broken Bridge (V Center)|壊れた橋（縦・中央）
-Broken Bridge (V, Riight)|壊れた橋（縦・右）
-Stone Bridge (H, Bottom)|石の橋（横・下）
-Broken Bridge (H Center)|壊れた橋（横・中央）
-Broken Bridge (H, Bottom)|壊れた橋（横・下）
-Wood Floor A|木の床A
-Wood Floor B|木の床B
-Wood Floor C|木の床C
-Wood Floor D|木の床D
-Cobblestones A|石畳A
-Cobblestones B|石畳B
-Cobblestones C|石畳C
-Cobblestones D|石畳D
-Ledge A (Wood)|段差A（木製）
-Ledge B (Wood)|段差B（木製）
-Ledge C (Log)|段差C（丸太）
-Ledge D (Log)|段差D（丸太）
-Ledge E (Brick)|段差E（レンガ）
-Ledge F (Stone)|段差F（石）
-Ledge G (Stone)|段差G（石）
-Ledge H (Stone)|段差H（石）
-Cobblestones E|石畳E
-Cobblestones F|石畳F
-Wood Floor E|木の床E
-Wood Floor F|木の床F
-Cobblestones G|石畳G
-Cobblestones H|石畳H
-Cobblestones I|石畳I
-Cobblestones J|石畳J
-Ledge I (Brick)|段差I（レンガ）
-Ledge J (Castle)|段差J（城）
-Ledge K (Fort)|段差K（砦）
-Ledge L (Wood)|段差L（木製）
-Ledge M (Stone)|段差M（石）
-Ledge N (Stone)|段差N（石）
-Ledge O (Marble)|段差O（大理石）
-Ledge P (Stone)|段差P（石）
-Interior Floor A (Wood)|内装床A（木製）
-Interior Floor B (Brick)|内装床B（レンガ）
-Interior Floor C (Temple)|内装床C（神殿）
-Interior Floor D (Stone)|内装床D（石）
-Interior Floor E (Demon Castle)|内装床E（魔王城）
-Interior Floor F (Tent)|内装床F（テント）
-Interior Floor G (Concrete)|内装床G（コンクリート）
-Interior Floor H (Dirt)|内装床H（土）
-Ledge Q (Wood)|段差Q（木製）
-Ledge R (Desert)|段差R（砂漠風）
-Ledge S (Temple)|段差S（神殿）
-Ledge T (Stone)|段差T（石）
-Ledge U (Demon Castle)|段差U（魔界城）
-Ledge V (Tent)|段差V（テント）
-Ledge W (Concrete)|段差W（コンクリート）
-Ledge X (Dirt)|段差X（土）
-Stairs A (Wood, Left)|階段A（木製・左）
-Stairs A (Wood, Center)|階段A（木製・中央）
-Stairs A (Wood)|階段A（木製・右）
-Stairs A (Wood)|階段A（木製）
-Stairs B (Stone, Left)|階段B（石・左）
-Stairs B (Stone, Center)|階段B（石・中央）
-Stairs B (Stone, Right)|階段B（石・右）
-Stairs B (Stone)|階段B（石）
-Stairs C (Stone, Left)|階段C（石・左）
-Stairs C (Stone, Center)|階段C（石・中央）
-Stairs C (Stone, Right)|階段C（石・右）
-Stairs C (Stone)|階段C（石）
-Stairs C (Stone, Ruins, Left)|階段C（石・廃墟・左）
-Stairs C (Stone, Ruins, Center)|階段C（石・廃墟・中央）
-Stairs C (Stone, Ruins, Right)|階段C（石・廃墟・右）
-Stairs C (Stone, Ruins)|階段C（石・廃墟）
-Stairs D (Carpet, Left)|階段D（じゅうたん・左）
-Stairs D (Carpet, Center)|階段D（じゅうたん・中央）
-Stairs D (Carpet, Right)|階段D（じゅうたん・右）
-Stairs D (Carpet)|階段D（じゅうたん）
-Stairs E (Carpet, Left)|階段E（じゅうたん・左）
-Stairs E (Carpet, Center)|階段E（じゅうたん・中央）
-Stairs E (Carpet, Right)|階段E（じゅうたん・右）
-Stairs E (Carpet)|階段E（じゅうたん）
-Wood Floor A (Ruins)|木の床A（廃墟）
-Wood Floor B (Ruins)|木の床B（廃墟）
-Wood Floor C (Ruins)|木の床C（廃墟）
-Wood Floor D (Ruins)|木の床D（廃墟）
-Cobblestones A (Ruins)|石畳A（廃墟）
-Cobblestones B (Ruins)|石畳B（廃墟）
-Cobblestones C (Ruins)|石畳C（廃墟）
-Cobblestones D (Ruins)|石畳D（廃墟）
-Cobblestones E (Ruins)|石畳E（廃墟）
-Cobblestones F (Ruins)|石畳F（廃墟）
-Wood Floor E (Ruins)|木の床E（廃墟）
-Wood Floor F (Ruins)|木の床F（廃墟）
-Cobblestones G (Ruins)|石畳G（廃墟）
-Cobblestones H (Ruins)|石畳H（廃墟）
-Cobblestones I (Ruins)|石畳I（廃墟）
-Cobblestones J (Ruins)|石畳J（廃墟）
-Interior Floor A (Wood, Ruins)|内装床A（木製・廃墟）
-Interior Floor B (Brick, Ruins)|内装床B（レンガ・廃墟）
-Interior Floor C (Temple, Ruins)|内装床C（神殿・廃墟）
-Interior Floor D (Stone, Ruins)|内装床D（石・廃墟）
-Interior Floor E (Demon Castle, Ruins)|内装床E（魔王城・廃墟）
-Interior Floor F (Concrete, Ruins)|内装床F（コンクリート・廃墟）
-Interior Floor G (Tent, Ruins)|内装床G（テント・廃墟）
-Interior Floor H (Dirt, Ruins)|内装床H（土・廃墟）
-Large Relief Floor Tile A|大きなレリーフ床A
-Large Relief Floor Tile A|大きなレリーフ床A
-Large Relief Floor Tile B|大きなレリーフ床B
-Large Relief Floor Tile B|大きなレリーフ床B
-Relief Floor Tile A (Silver)|レリーフ床A（銀）
-Relief Floor Tile B (Silver)|レリーフ床B（銀）
-Relief Floor Tile C (Gold)|レリーフ床C（金）
-Relief Floor Tile D (Gold)|レリーフ床D（金）
-Large Relief Floor Tile A|大きなレリーフ床A
-Large Relief Floor Tile A|大きなレリーフ床A
-Large Relief Floor Tile B|大きなレリーフ床B
-Large Relief Floor Tile B|大きなレリーフ床B
-Relief Floor Tile E (Silver, Ruins)|レリーフ床E（銀・廃墟）
-Relief Floor Tile F (Silver)|レリーフ床F（銀）
-Relief Floor Tile G (Gold, Ruins)|レリーフ床G（金・廃墟）
-Relief Floor Tile H (Gold)|レリーフ床H（金）
+﻿Darkness|secretly
+Wire Mesh|Golden Net
+Stone Bridge (V, Left)|stoneのbridge（Qi・Left）
+Stone Bridge (V Center)|stoneのbridge（Qi・central）
+Stone Bridge (V, Riight)|stoneのbridge（Qi・right）
+Stone Bridge (H, Top)|stoneのbridge（horizontal・superior）
+Stone Bridge (H Center)|stoneのbridge（horizontal・central）
+Broken Bridge (H, Top)|Leiれたbridge（horizontal・superior）
+Transparent|transparent
+Wire Mesh|Golden Net
+Broken Bridge (V, Left)|Leiれたbridge（Qi・Left）
+Broken Bridge (V Center)|Leiれたbridge（Qi・central）
+Broken Bridge (V, Riight)|Leiれたbridge（Qi・right）
+Stone Bridge (H, Bottom)|stoneのbridge（horizontal・Down）
+Broken Bridge (H Center)|Leiれたbridge（horizontal・central）
+Broken Bridge (H, Bottom)|Leiれたbridge（horizontal・Down）
+Wood Floor A|WoodのbedA
+Wood Floor B|WoodのbedB
+Wood Floor C|WoodのbedC
+Wood Floor D|WoodのbedD
+Cobblestones A|stone panA
+Cobblestones B|stone panB
+Cobblestones C|stone panC
+Cobblestones D|stone panD
+Ledge A (Wood)|step differenceA（wooden）
+Ledge B (Wood)|step differenceB（wooden）
+Ledge C (Log)|step differenceC（Maruta）
+Ledge D (Log)|step differenceD（Maruta）
+Ledge E (Brick)|step differenceE（レンガ）
+Ledge F (Stone)|step differenceF（stone）
+Ledge G (Stone)|step differenceG（stone）
+Ledge H (Stone)|step differenceH（stone）
+Cobblestones E|stone panE
+Cobblestones F|stone panF
+Wood Floor E|WoodのbedE
+Wood Floor F|WoodのbedF
+Cobblestones G|stone panG
+Cobblestones H|stone panH
+Cobblestones I|stone panI
+Cobblestones J|stone panJ
+Ledge I (Brick)|step differenceI（レンガ）
+Ledge J (Castle)|step differenceJ（city）
+Ledge K (Fort)|step differenceK（village）
+Ledge L (Wood)|step differenceL（wooden）
+Ledge M (Stone)|step differenceM（stone）
+Ledge N (Stone)|step differenceN（stone）
+Ledge O (Marble)|step differenceO（marble）
+Ledge P (Stone)|step differenceP（stone）
+Interior Floor A (Wood)|Built-in bedA（wooden）
+Interior Floor B (Brick)|Built-in bedB（レンガ）
+Interior Floor C (Temple)|Built-in bedC（temple）
+Interior Floor D (Stone)|Built-in bedD（stone）
+Interior Floor E (Demon Castle)|Built-in bedE（Demon King's Castle）
+Interior Floor F (Tent)|Built-in bedF（テント）
+Interior Floor G (Concrete)|Built-in bedG（コンクリート）
+Interior Floor H (Dirt)|Built-in bedH（earth）
+Ledge Q (Wood)|step differenceQ（wooden）
+Ledge R (Desert)|step differenceR（desert wind）
+Ledge S (Temple)|step differenceS（temple）
+Ledge T (Stone)|step differenceT（stone）
+Ledge U (Demon Castle)|step differenceU（Demon City）
+Ledge V (Tent)|step differenceV（テント）
+Ledge W (Concrete)|step differenceW（コンクリート）
+Ledge X (Dirt)|step differenceX（earth）
+Stairs A (Wood, Left)|stageA（wooden・Left）
+Stairs A (Wood, Center)|stageA（wooden・central）
+Stairs A (Wood)|stageA（wooden・right）
+Stairs A (Wood)|stageA（wooden）
+Stairs B (Stone, Left)|stageB（stone・Left）
+Stairs B (Stone, Center)|stageB（stone・central）
+Stairs B (Stone, Right)|stageB（stone・right）
+Stairs B (Stone)|stageB（stone）
+Stairs C (Stone, Left)|stageC（stone・Left）
+Stairs C (Stone, Center)|stageC（stone・central）
+Stairs C (Stone, Right)|stageC（stone・right）
+Stairs C (Stone)|stageC（stone）
+Stairs C (Stone, Ruins, Left)|stageC（stone・Abandoned ruins・Left）
+Stairs C (Stone, Ruins, Center)|stageC（stone・Abandoned ruins・central）
+Stairs C (Stone, Ruins, Right)|stageC（stone・Abandoned ruins・right）
+Stairs C (Stone, Ruins)|stageC（stone・Abandoned ruins）
+Stairs D (Carpet, Left)|stageD（じゅうたん・Left）
+Stairs D (Carpet, Center)|stageD（じゅうたん・central）
+Stairs D (Carpet, Right)|stageD（じゅうたん・right）
+Stairs D (Carpet)|stageD（じゅうたん）
+Stairs E (Carpet, Left)|stageE（じゅうたん・Left）
+Stairs E (Carpet, Center)|stageE（じゅうたん・central）
+Stairs E (Carpet, Right)|stageE（じゅうたん・right）
+Stairs E (Carpet)|stageE（じゅうたん）
+Wood Floor A (Ruins)|WoodのbedA（Abandoned ruins）
+Wood Floor B (Ruins)|WoodのbedB（Abandoned ruins）
+Wood Floor C (Ruins)|WoodのbedC（Abandoned ruins）
+Wood Floor D (Ruins)|WoodのbedD（Abandoned ruins）
+Cobblestones A (Ruins)|stone panA（Abandoned ruins）
+Cobblestones B (Ruins)|stone panB（Abandoned ruins）
+Cobblestones C (Ruins)|stone panC（Abandoned ruins）
+Cobblestones D (Ruins)|stone panD（Abandoned ruins）
+Cobblestones E (Ruins)|stone panE（Abandoned ruins）
+Cobblestones F (Ruins)|stone panF（Abandoned ruins）
+Wood Floor E (Ruins)|WoodのbedE（Abandoned ruins）
+Wood Floor F (Ruins)|WoodのbedF（Abandoned ruins）
+Cobblestones G (Ruins)|stone panG（Abandoned ruins）
+Cobblestones H (Ruins)|stone panH（Abandoned ruins）
+Cobblestones I (Ruins)|stone panI（Abandoned ruins）
+Cobblestones J (Ruins)|stone panJ（Abandoned ruins）
+Interior Floor A (Wood, Ruins)|Built-in bedA（wooden・Abandoned ruins）
+Interior Floor B (Brick, Ruins)|Built-in bedB（レンガ・Abandoned ruins）
+Interior Floor C (Temple, Ruins)|Built-in bedC（temple・Abandoned ruins）
+Interior Floor D (Stone, Ruins)|Built-in bedD（stone・Abandoned ruins）
+Interior Floor E (Demon Castle, Ruins)|Built-in bedE（Demon King's Castle・Abandoned ruins）
+Interior Floor F (Concrete, Ruins)|Built-in bedF（コンクリート・Abandoned ruins）
+Interior Floor G (Tent, Ruins)|Built-in bedG（テント・Abandoned ruins）
+Interior Floor H (Dirt, Ruins)|Built-in bedH（earth・Abandoned ruins）
+Large Relief Floor Tile A|bigきなレリーフbedA
+Large Relief Floor Tile A|bigきなレリーフbedA
+Large Relief Floor Tile B|bigきなレリーフbedB
+Large Relief Floor Tile B|bigきなレリーフbedB
+Relief Floor Tile A (Silver)|レリーフbedA（silver）
+Relief Floor Tile B (Silver)|レリーフbedB（silver）
+Relief Floor Tile C (Gold)|レリーフbedC（gold）
+Relief Floor Tile D (Gold)|レリーフbedD（gold）
+Large Relief Floor Tile A|bigきなレリーフbedA
+Large Relief Floor Tile A|bigきなレリーフbedA
+Large Relief Floor Tile B|bigきなレリーフbedB
+Large Relief Floor Tile B|bigきなレリーフbedB
+Relief Floor Tile E (Silver, Ruins)|レリーフbedE（silver・Abandoned ruins）
+Relief Floor Tile F (Silver)|レリーフbedF（silver）
+Relief Floor Tile G (Gold, Ruins)|レリーフbedG（gold・Abandoned ruins）
+Relief Floor Tile H (Gold)|レリーフbedH（gold）
 

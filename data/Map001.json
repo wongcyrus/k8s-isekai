@@ -2108,7 +2108,7 @@
                             "code": 655,
                             "indent": 0,
                             "parameters": [
-                                "  .catch(error => $gameMessage.add(formatText(`发生错误: ${error.message}`)));"
+                                "  .catch(error => $gameMessage.add(formatText(`An error occurred: ${error.message}`)));"
                             ]
                         },
                         {
@@ -2185,21 +2185,21 @@
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "是否查找万能解法？"
+                                "Whether to find a universal solution？"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "注意：你可以跳过此题，但是跳题不会加分数！"
+                                "Notice：You can skip this question，But skipping questions will not add points！"
                             ]
                         },
                         {
                             "code": 401,
                             "indent": 0,
                             "parameters": [
-                                "亦不可回头，请务必珍惜机会！"
+                                "Can't look back either，Please cherish the opportunity！"
                             ]
                         },
                         {
@@ -2207,8 +2207,8 @@
                             "indent": 0,
                             "parameters": [
                                 [
-                                    "是",
-                                    "否"
+                                    "yes",
+                                    "no"
                                 ],
                                 1,
                                 0,
@@ -2221,7 +2221,7 @@
                             "indent": 0,
                             "parameters": [
                                 0,
-                                "是"
+                                "yes"
                             ]
                         },
                         {
@@ -2263,7 +2263,7 @@
                             "code": 655,
                             "indent": 1,
                             "parameters": [
-                                "  .catch(error => $gameMessage.add(formatText(`发生错误: ${error.message}`)));"
+                                "  .catch(error => $gameMessage.add(formatText(`An error occurred: ${error.message}`)));"
                             ]
                         },
                         {
@@ -2276,7 +2276,7 @@
                             "indent": 0,
                             "parameters": [
                                 1,
-                                "否"
+                                "no"
                             ]
                         },
                         {

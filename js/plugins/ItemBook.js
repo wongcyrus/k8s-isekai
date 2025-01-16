@@ -38,38 +38,38 @@
  */
 
 /*:ja
- * @plugindesc アイテム図鑑です。アイテムの詳細なステータスを表示します。
+ * @plugindesc アイテム図jianです。アイテムのDetailedなステータスをexpressします。
  * @author Yoji Ojima
  *
  * @param Unknown Data
- * @desc 未確認のアイテムの索引名です。
+ * @desc Not confirmedのアイテムのIndex nameです。
  * @default ？？？？？？
  *
  * @param Price Text
- * @desc 「価格」の文字列です。
- * @default 価格
+ * @desc 「price」のText columnです。
+ * @default price
  *
  * @param Equip Text
- * @desc 「装備」の文字列です。
- * @default 装備
+ * @desc 「Equipment」のText columnです。
+ * @default Equipment
  *
  * @param Type Text
- * @desc 「タイプ」の文字列です。
+ * @desc 「タイプ」のText columnです。
  * @default タイプ
  *
  * @help
  *
  * プラグインコマンド:
- *   ItemBook open            # 図鑑画面を開く
- *   ItemBook add weapon 3    # 武器３番を図鑑に追加
- *   ItemBook add armor 4     # 防具４番を図鑑に追加
- *   ItemBook remove armor 5  # 防具５番を図鑑から削除
- *   ItemBook remove item 6   # アイテム６番を図鑑から削除
- *   ItemBook complete        # 図鑑を完成させる
- *   ItemBook clear           # 図鑑をクリアする
+ *   ItemBook open            # Picture screenをopenく
+ *   ItemBook add weapon 3    # arms３Fanを図jianにAppend
+ *   ItemBook add armor 4     # Armor４Fanを図jianにAppend
+ *   ItemBook remove armor 5  # Armor５Fanを図jianからcut off
+ *   ItemBook remove item 6   # アイテム６Fanを図jianからcut off
+ *   ItemBook complete        # 図jianをFinishさせる
+ *   ItemBook clear           # 図jianをクリアする
  *
- * アイテム（武器、防具）のメモ:
- *   <book:no>                # 図鑑に載せない場合
+ * アイテム（arms、Armor）のメモ:
+ *   <book:no>                # 図jianにloadせないoccasion
  */
 
 (function() {

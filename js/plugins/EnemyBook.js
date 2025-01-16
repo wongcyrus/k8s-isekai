@@ -26,26 +26,26 @@
  */
 
 /*:ja
- * @plugindesc モンスター図鑑です。敵キャラの詳細なステータスを表示します。
+ * @plugindesc モンスター図jianです。enemyキャラのDetailedなステータスをexpressします。
  * @author Yoji Ojima
  *
  * @param Unknown Data
- * @desc 未確認の敵キャラの索引名です。
+ * @desc Not confirmedのenemyキャラのIndex nameです。
  * @default ？？？？？？
  *
  * @help
  *
  * プラグインコマンド:
- *   EnemyBook open         # 図鑑画面を開く
- *   EnemyBook add 3        # 敵キャラ３番を図鑑に追加
- *   EnemyBook remove 4     # 敵キャラ４番を図鑑から削除
- *   EnemyBook complete     # 図鑑を完成させる
- *   EnemyBook clear        # 図鑑をクリアする
+ *   EnemyBook open         # Picture screenをopenく
+ *   EnemyBook add 3        # enemyキャラ３Fanを図jianにAppend
+ *   EnemyBook remove 4     # enemyキャラ４Fanを図jianからcut off
+ *   EnemyBook complete     # 図jianをFinishさせる
+ *   EnemyBook clear        # 図jianをクリアする
  *
- * 敵キャラのメモ:
- *   <desc1:なんとか>       # 説明１行目
- *   <desc2:かんとか>       # 説明２行目
- *   <book:no>              # 図鑑に載せない場合
+ * enemyキャラのメモ:
+ *   <desc1:なんとか>       # Description１Line of business
+ *   <desc2:かんとか>       # Description２Line of business
+ *   <book:no>              # 図jianにloadせないoccasion
  */
 
 (function() {

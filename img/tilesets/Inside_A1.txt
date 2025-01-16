@@ -1,16 +1,16 @@
-﻿Canal A|水路A
-Deep Canal|深い水路
-Lotus Pads (Flowers)|蓮の葉（花）
+﻿Canal A|waterwayA
+Deep Canal|deepいwaterway
+Lotus Pads (Flowers)|lotusのleaves（flower）
 Junk|ゴミ
-Pool A (Stone Lined)|水場A（石の縁）
-Waterfall A (Stone Wall)|滝A（石壁）
-Pool B (Wood Lined)|水場B（木の縁）
-Waterfall B (Stone Wall)|滝B（石壁）
-Canal B|水路B
-Waterfall C (Stone Wall)|滝C（石壁）
-Pool C (Stone Lined)|水場C（石の縁）
-Waterfall D (Stone Wall)|滝D（石壁）
-Bathing Spot|水浴び場
-Waterfall E (Dirt Wall)|滝E（土壁）
-Open Bath|露天風呂
-Waterfall F (Demon Castle)|滝F（魔王城）
+Pool A (Stone Lined)|water fieldA（stoneの縁）
+Waterfall A (Stone Wall)|takiA（stone wall）
+Pool B (Wood Lined)|water fieldB（Woodの縁）
+Waterfall B (Stone Wall)|takiB（stone wall）
+Canal B|waterwayB
+Waterfall C (Stone Wall)|takiC（stone wall）
+Pool C (Stone Lined)|water fieldC（stoneの縁）
+Waterfall D (Stone Wall)|takiD（stone wall）
+Bathing Spot|water bathびfield
+Waterfall E (Dirt Wall)|takiE（earth wall）
+Open Bath|Open-air bath
+Waterfall F (Demon Castle)|takiF（Demon King's Castle）

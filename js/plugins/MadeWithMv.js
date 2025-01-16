@@ -51,21 +51,21 @@
  *
  */
 /*:ja
- * メモ: イメージはimg／systemフォルダ内に保存されます。
+ * メモ: イメージはimg／systemフォルダInsideにsaveされます。
  *
- * @plugindesc メイン画面へ進む前に、"Made with MV"のスプラッシュ画面もしくはカスタマイズされたスプラッシュ画面を表示します。
+ * @plugindesc メインPictureへenterむforwardに、"Made with MV"のスプラッシュPictureもしくはカスタマイズされたスプラッシュPictureをexpressします。
  * @author Dan "Liquidize" Deptula
  *
  * @help  このプラグインにはプラグインコマンドはありません。
  *
  * @param Show Made With MV
- * @desc "Made with MV"のスプラッシュ画面を表示できる/できないようにします。 
+ * @desc "Made with MV"のスプラッシュPictureをexpressできる/できないようにします。 
  * OFF - false     ON - true
  * デフォルト: ON
  * @default true
  *
  * @param Made with MV Image
- * @desc "Made with MV"を表示する際に使用する画像
+ * @desc "Made with MV"をexpressするinternationalにuseするportrait
  * デフォルト: MadeWithMv
  * @default MadeWithMv
  * @require 1
@@ -73,13 +73,13 @@
  * @type file
  *
  * @param Show Custom Splash
- * @desc "Made with MV"のスプラッシュ画面を表示できる/できないようにします。 
+ * @desc "Made with MV"のスプラッシュPictureをexpressできる/できないようにします。 
  * OFF - false     ON - true
  * デフォルト: OFF
  * @default false
  *
  * @param Custom Image
- * @desc "Made with MV"を表示する際に使用する画像
+ * @desc "Made with MV"をexpressするinternationalにuseするportrait
  * デフォルト: 
  * @default 
  * @require 1
@@ -87,17 +87,17 @@
  * @type file
  *
  * @param Fade Out Time
- * @desc フェードアウトに要する時間（フレーム数）
+ * @desc フェードアウトにwantするtime（フレームnumber）
  * デフォルト: 120
  * @default 120
  *
  * @param Fade In Time
- * @desc フェードインに要する時間（フレーム数）
+ * @desc フェードインにwantするtime（フレームnumber）
  * デフォルト: 120
  * @default 120
  *
  * @param Wait Time
- * @desc フェードインからフェードアウトまでに要する時間（フレーム数）
+ * @desc フェードインからフェードアウトまでにwantするtime（フレームnumber）
  * デフォルト: 160
  * @default 160
  *

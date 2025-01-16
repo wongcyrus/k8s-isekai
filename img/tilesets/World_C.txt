@@ -1,256 +1,256 @@
-﻿Transparent|透明
-Signboard A|看板A
-Signboard B|看板B
-Signboard C|看板C
-Iron Bridge (H)|鉄橋（横）
-Iron Bridge (V)|鉄橋（縦）
-Reservoir A|貯水池A
-Reservoir B|貯水池B
-Hut|小屋
-Shanty|掘っ立て小屋
-Signboard D|看板D
-Stele A|石碑A
-Stele B|石碑B
-Windmill|風車
+﻿Transparent|transparent
+Signboard A|KanbanA
+Signboard B|KanbanB
+Signboard C|KanbanC
+Iron Bridge (H)|Railway bridge（horizontal）
+Iron Bridge (V)|Railway bridge（Qi）
+Reservoir A|water tankA
+Reservoir B|water tankB
+Hut|cabin
+Shanty|digっstandてcabin
+Signboard D|KanbanD
+Stele A|steleA
+Stele B|steleB
+Windmill|windmill
 Parabolic Antenna|パラボラアンテナ
 Heliport|ヘリポート
-Entrance A (Open)|入口A（開）
-Entrance A (Closed)|入口A（閉）
-Entrance B (Open)|入口B（開）
-Entrance B (Closed)|入口B（閉）
-Entrance C (Open)|入口C（開）
-Entrance C (Closed)|入口C（閉）
-Entrance D (Closed)|入口D（閉）
-Entrance E (Closed)|入口E（閉）
-Road|道路
-Road|道路
-Road Closed|通行止め
-Rocky Mountain|岩山
-Rocky Mountain|岩山
-Mountain|山
-Mountain|山
-Coniferous Tree A|針葉樹A
-Road|道路
-Road|道路
-Road|道路
-Rocky Mountain|岩山
-Rocky Mountain|岩山
-Mountain|山
-Mountain|山
-Coniferous Tree B|針葉樹B
-Road|道路
-Road|道路
-Road|道路
-Rocky Mountain|岩山
-Rocky Mountain|岩山
-Mountain|山
-Mountain|山
-Broadleaf Tree|広葉樹
-Road|道路
-Road|道路
-Road|道路
-Rocky Mountain|岩山
-Rocky Mountain|岩山
-Mountain|山
-Mountain|山
-Broken Buildings|壊れたビル街
-Town A|町A
-Town B|町B
-Slum A|スラム街A
-Slum B|スラム街B
-Mansion A|邸宅A
-Mansion A|邸宅A
+Entrance A (Open)|EntranceA（open）
+Entrance A (Closed)|EntranceA（close）
+Entrance B (Open)|EntranceB（open）
+Entrance B (Closed)|EntranceB（close）
+Entrance C (Open)|EntranceC（open）
+Entrance C (Closed)|EntranceC（close）
+Entrance D (Closed)|EntranceD（close）
+Entrance E (Closed)|EntranceE（close）
+Road|the way
+Road|the way
+Road Closed|pass onlyめ
+Rocky Mountain|rock mountain
+Rocky Mountain|rock mountain
+Mountain|Mountain
+Mountain|Mountain
+Coniferous Tree A|coniferA
+Road|the way
+Road|the way
+Road|the way
+Rocky Mountain|rock mountain
+Rocky Mountain|rock mountain
+Mountain|Mountain
+Mountain|Mountain
+Coniferous Tree B|coniferB
+Road|the way
+Road|the way
+Road|the way
+Rocky Mountain|rock mountain
+Rocky Mountain|rock mountain
+Mountain|Mountain
+Mountain|Mountain
+Broadleaf Tree|leaf tree
+Road|the way
+Road|the way
+Road|the way
+Rocky Mountain|rock mountain
+Rocky Mountain|rock mountain
+Mountain|Mountain
+Mountain|Mountain
+Broken Buildings|Leiれたビルstreet
+Town A|townA
+Town B|townB
+Slum A|スラムstreetA
+Slum B|スラムstreetB
+Mansion A|MansionA
+Mansion A|MansionA
 Gate A|ゲートA
 Gate B|ゲートB
-Shopping Area A|商店街A
-Shopping Area B|商店街B
-Buildings A|ビル街A
-Buildings B|ビル街B
-Mansion B|邸宅B
-Mansion B|邸宅B
+Shopping Area A|shopping streetA
+Shopping Area B|shopping streetB
+Buildings A|ビルstreetA
+Buildings B|ビルstreetB
+Mansion B|MansionB
+Mansion B|MansionB
 Gate C|ゲートC
 Gate D|ゲートD
-Residential Street|住宅街
-Residential Street|住宅街
-Slum|スラム街
-Slum|スラム街
-School|学校
-School|学校
-Hospital|病院
-Hospital|病院
-Residential Street|住宅街
-Residential Street|住宅街
-Slum|スラム街
-Slum|スラム街
-School|学校
-School|学校
-Hospital|病院
-Hospital|病院
-City A|街A
-City A|街A
-City B|街B
-City B|街B
-Residence A|屋敷A
-Residence A|屋敷A
-Residence B|屋敷B
-Residence B|屋敷B
-City A|街A
-City A|街A
-City B|街B
-City B|街B
-Residence A|屋敷A
-Residence A|屋敷A
-Residence B|屋敷B
-Residence B|屋敷B
-Bridge A (V)|橋A（縦）
-Bridge A (H)|橋A（横）
-Broken Bridge A (V)|壊れた橋A（縦）
-Broken Bridge A (H)|壊れた橋A（横）
-Bridge B (V)|橋B（縦）
-Bridge B (H)|橋B（横）
-Broken Bridge B (V)|壊れた橋（縦）
-Broken Bridge B (H)|壊れた橋（横）
+Residential Street|residential street
+Residential Street|residential street
+Slum|スラムstreet
+Slum|スラムstreet
+School|School
+School|School
+Hospital|hospital
+Hospital|hospital
+Residential Street|residential street
+Residential Street|residential street
+Slum|スラムstreet
+Slum|スラムstreet
+School|School
+School|School
+Hospital|hospital
+Hospital|hospital
+City A|streetA
+City A|streetA
+City B|streetB
+City B|streetB
+Residence A|YashikiA
+Residence A|YashikiA
+Residence B|YashikiB
+Residence B|YashikiB
+City A|streetA
+City A|streetA
+City B|streetB
+City B|streetB
+Residence A|YashikiA
+Residence A|YashikiA
+Residence B|YashikiB
+Residence B|YashikiB
+Bridge A (V)|bridgeA（Qi）
+Bridge A (H)|bridgeA（horizontal）
+Broken Bridge A (V)|LeiれたbridgeA（Qi）
+Broken Bridge A (H)|LeiれたbridgeA（horizontal）
+Bridge B (V)|bridgeB（Qi）
+Bridge B (H)|bridgeB（horizontal）
+Broken Bridge B (V)|Leiれたbridge（Qi）
+Broken Bridge B (H)|Leiれたbridge（horizontal）
 Building A|ビルA
 Building B|ビルB
 Building C|ビルC
 Building D|ビルD
 Apartment|マンション
-Apartment Complex|マンション群
-Collapsed Building A|崩壊したビルA
-Collapsed Building B|崩壊したビルB
+Apartment Complex|マンションgroup
+Collapsed Building A|CollapseしたビルA
+Collapsed Building B|CollapseしたビルB
 Building A|ビルA
 Building B|ビルB
 Building C|ビルC
 Building D|ビルD
 Apartment|マンション
-Apartment Complex|マンション群
-Collapsed Building A|崩壊したビルA
-Collapsed Building B|崩壊したビルB
-Large Town A|大きな町A
-Large Town A|大きな町A
-Entertainment District A|歓楽街A
-Entertainment District A|歓楽街A
-Police Station|警察署
-Police Station|警察署
+Apartment Complex|マンションgroup
+Collapsed Building A|CollapseしたビルA
+Collapsed Building B|CollapseしたビルB
+Large Town A|bigきなtownA
+Large Town A|bigきなtownA
+Entertainment District A|Xuejie StreetA
+Entertainment District A|Xuejie StreetA
+Police Station|police station
+Police Station|police station
 Crater A|クレーターA
 Crater A|クレーターA
-Large Town A|大きな町A
-Large Town A|大きな町A
-Entertainment District A|歓楽街A
-Entertainment District A|歓楽街A
-Police Station|警察署
-Police Station|警察署
+Large Town A|bigきなtownA
+Large Town A|bigきなtownA
+Entertainment District A|Xuejie StreetA
+Entertainment District A|Xuejie StreetA
+Police Station|police station
+Police Station|police station
 Crater A|クレーターA
 Crater A|クレーターA
-Large Town B|大きな町B
-Large Town B|大きな町B
-Entertainment District B|歓楽街B
-Entertainment District B|歓楽街B
-Museum|博物館
-Museum|博物館
+Large Town B|bigきなtownB
+Large Town B|bigきなtownB
+Entertainment District B|Xuejie StreetB
+Entertainment District B|Xuejie StreetB
+Museum|museum
+Museum|museum
 Crater B|クレーターB
 Crater B|クレーターB
-Large Town B|大きな町B
-Large Town B|大きな町B
-Entertainment District B|歓楽街B
-Entertainment District B|歓楽街B
-Museum|博物館
-Museum|博物館
+Large Town B|bigきなtownB
+Large Town B|bigきなtownB
+Entertainment District B|Xuejie StreetB
+Entertainment District B|Xuejie StreetB
+Museum|museum
+Museum|museum
 Crater B|クレーターB
 Crater B|クレーターB
-Warehouse A|倉庫A
-Warehouse A|倉庫A
-Factory|工場
-Factory|工場
-Warehouse B|倉庫B
+Warehouse A|warehouseA
+Warehouse A|warehouseA
+Factory|workshop
+Factory|workshop
+Warehouse B|warehouseB
 Gantry Crane|ガントリークレーン
-Park|公園
+Park|park
 Crater C|クレーターC
-Warehouse A|倉庫A
-Warehouse A|倉庫A
-Factory|工場
-Factory|工場
-Warehouse B|倉庫B
+Warehouse A|warehouseA
+Warehouse A|warehouseA
+Factory|workshop
+Factory|workshop
+Warehouse B|warehouseB
 Gantry Crane|ガントリークレーン
-Statue A|像A
-Statue B|像B
-Fuel Tank|燃料タンク
-Fuel Tank|燃料タンク
-Construction Site|工事現場
-Construction Site|工事現場
-Watchtower|監視塔
-Steel Tower|鉄塔
+Statue A|pictureA
+Statue B|pictureB
+Fuel Tank|fuelタンク
+Fuel Tank|fuelタンク
+Construction Site|fortification site
+Construction Site|fortification site
+Watchtower|Watchtower
+Steel Tower|Iron Tower
 Tower A|タワーA
 Tower B|タワーB
-Fuel Tank|燃料タンク
-Fuel Tank|燃料タンク
-Construction Site|工事現場
-Construction Site|工事現場
-Watchtower|監視塔
-Steel Tower|鉄塔
+Fuel Tank|fuelタンク
+Fuel Tank|fuelタンク
+Construction Site|fortification site
+Construction Site|fortification site
+Watchtower|Watchtower
+Steel Tower|Iron Tower
 Tower A|タワーA
 Tower B|タワーB
-Outer Wall|外壁
-Outer Wall|外壁
-Outer Wall|外壁
-Outer Wall|外壁
-Outer Wall|外壁
-Outer Wall|外壁
-Outer Wall|外壁
-Outer Wall|外壁
-Outer Wall|外壁
-Outer Wall (Gate)|外壁（門）
-Outer Wall|外壁
-Outer Wall|外壁
-Outer Wall|外壁
-Outer Wall|外壁
-Outer Wall|外壁
-Outer Wall|外壁
-Outer Wall|外壁
-Outer Wall|外壁
-Outer Wall|外壁
-Outer Wall|外壁
-Outer Wall|外壁
-Outer Wall|外壁
-Outer Wall|外壁
-Outer Wall (Gate)|外壁（門）
-Outer Wall|外壁
-Outer Wall|外壁
-Outer Wall|外壁
-Outer Wall|外壁
-Outer Wall|外壁
-Outer Wall|外壁
-Outer Wall|外壁
-Outer Wall|外壁
-Outer Wall|外壁
-Outer Wall|外壁
-Outer Wall|外壁
-Outer Wall|外壁
-Outer Wall|外壁
-Outer Wall|外壁
-Outer Wall|外壁
-Outer Wall|外壁
+Outer Wall|outer wall
+Outer Wall|outer wall
+Outer Wall|outer wall
+Outer Wall|outer wall
+Outer Wall|outer wall
+Outer Wall|outer wall
+Outer Wall|outer wall
+Outer Wall|outer wall
+Outer Wall|outer wall
+Outer Wall (Gate)|outer wall（door）
+Outer Wall|outer wall
+Outer Wall|outer wall
+Outer Wall|outer wall
+Outer Wall|outer wall
+Outer Wall|outer wall
+Outer Wall|outer wall
+Outer Wall|outer wall
+Outer Wall|outer wall
+Outer Wall|outer wall
+Outer Wall|outer wall
+Outer Wall|outer wall
+Outer Wall|outer wall
+Outer Wall|outer wall
+Outer Wall (Gate)|outer wall（door）
+Outer Wall|outer wall
+Outer Wall|outer wall
+Outer Wall|outer wall
+Outer Wall|outer wall
+Outer Wall|outer wall
+Outer Wall|outer wall
+Outer Wall|outer wall
+Outer Wall|outer wall
+Outer Wall|outer wall
+Outer Wall|outer wall
+Outer Wall|outer wall
+Outer Wall|outer wall
+Outer Wall|outer wall
+Outer Wall|outer wall
+Outer Wall|outer wall
+Outer Wall|outer wall
 Theme Park|テーマパーク
 Theme Park|テーマパーク
-Port|港湾
-Port|港湾
-Military Base|軍事基地
-Military Base|軍事基地
+Port|harbor
+Port|harbor
+Military Base|military base
+Military Base|military base
 Dome|ドーム
 Dome|ドーム
 Theme Park|テーマパーク
 Theme Park|テーマパーク
-Port|港湾
-Port|港湾
-Military Base|軍事基地
-Military Base|軍事基地
+Port|harbor
+Port|harbor
+Military Base|military base
+Military Base|military base
 Dome|ドーム
 Dome|ドーム
-Lighthouse|灯台
-Broken Lighthouse|壊れた灯台
-Temple|寺院
-Church|教会
-Cemetery A|墓地A
-Cemetery B|墓地B
-Prison|刑務所
-Prison|刑務所
+Lighthouse|lampstand
+Broken Lighthouse|Leiれたlampstand
+Temple|temple
+Church|church
+Cemetery A|cemeteryA
+Cemetery B|cemeteryB
+Prison|penal bureau
+Prison|penal bureau

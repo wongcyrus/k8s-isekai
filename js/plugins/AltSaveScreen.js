@@ -10,7 +10,7 @@
  */
 
 /*:ja
- * @plugindesc セーブ／ロード画面のレイアウトを変更します。
+ * @plugindesc セーブ／ロードPictureのレイアウトをChangeします。
  * @author Yoji Ojima
  *
  * @help このプラグインには、プラグインコマンドはありません。

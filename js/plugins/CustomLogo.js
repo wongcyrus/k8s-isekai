@@ -268,262 +268,262 @@
 
 /*:ja
  * @target MV MZ
- * @plugindesc ゲーム起動時にRPG Makerおよびユーザーロゴを表示します。
+ * @plugindesc ゲームWhen startingにRPG Makerおよびユーザーロゴをexpressします。
  * @author nz_prism
  *
  * @help CustomLogo.js
  * ver. 1.0.0
  * 
- * [バージョン履歴]
+ * [バージョンresume]
  * 2023/05/12 1.0.0 リリース
  * 
- * RPG Makerロゴおよび各種ユーザーロゴや注意書きなどをゲーム起動時に表示するプ
- * ラグインです。最大3つまでのロゴを順番に表示できます。表示画像や表示時間はプ
- * ラグインパラメータにより細かく設定することが可能です。
- * プラグインパラメータ「ロゴnスキップ可能」をオンに設定すると、決定ボタンや
- * キャンセルボタンの押下によるそのロゴのスキップが可能になります。また、プラグ
- * インパラメータ「全スキップを許可」をオンにすると、一回のボタン押下により全て
- * のロゴがスキップされるようになります。スキップ不可のロゴが存在する場合、その
- * ロゴの前までのロゴがスキップされます。
+ * RPG MakerロゴおよびVariousユーザーロゴやAttention bookきなどをゲームWhen startingにexpressするプ
+ * ラグインです。maximum3つまでのロゴをFollow alongにexpressできます。expressportraitやexpresstimeはプ
+ * ラグインパラメータによりfineかくsettingsすることがpossibleです。
+ * プラグインパラメータ「ロゴnスキップpossible」をオンにsettingsすると、Decideボタンや
+ * キャンセルボタンのtake custodyによるそのロゴのスキップがpossibleになります。また、プラグ
+ * インパラメータ「Completeスキップをpermission」をオンにすると、onceのボタンtake custodyによりCompleteて
+ * のロゴがスキップされるようになります。スキップNoのロゴがexistするoccasion、その
+ * ロゴのforwardまでのロゴがスキップされます。
  * 
- * なおロゴ1の画像としてデフォルトで設定されている画像はRPG Makerのロゴです。
- * 本ロゴについては、RPGMaker製ゲームであることを明示するために表示を推奨して
+ * なおロゴ1のportraitとしてデフォルトでsettingsされているportraitはRPG Makerのロゴです。
+ * Bookロゴについては、RPGMakersystemゲームであることをExpressするためにexpressをpushして
  * おります。
  *
  * @param logo1
- * @text ロゴ1設定
- * @desc 最初に表示するロゴの設定です。
+ * @text ロゴ1settings
+ * @desc initialにexpressするロゴのsettingsです。
  * 
  * @param logo1ImageName
- * @text ロゴ1画像名
- * @desc 最初に表示するロゴの画像ファイル名です。未設定の場合、次のロゴが表示されます。
+ * @text ロゴ1Portrait name
+ * @desc initialにexpressするロゴのportraitファイルnameです。Not setのoccasion、Second-rateのロゴがexpressされます。
  * @parent logo1
  * @type file
  * @dir img/system
  * 
  * @param logo1Skippable
- * @text ロゴ1スキップ可能
- * @desc オンにすると最初に表示するロゴをボタン押下によりスキップ可能になります。
+ * @text ロゴ1スキップpossible
+ * @desc オンにするとinitialにexpressするロゴをボタンtake custodyによりスキップpossibleになります。
  * @parent logo1
  * @type boolean
  * @default true
  * 
  * @param logo1Coordinate
- * @text ロゴ1座標
- * @desc 最初に表示するロゴの座標設定です。
+ * @text ロゴ1coordinates
+ * @desc initialにexpressするロゴのCoordinate settingです。
  * @parent logo1
  * 
  * @param logo1X
- * @text ロゴ1X座標
- * @desc 最初に表示するロゴのX座標です。
+ * @text ロゴ1Xcoordinates
+ * @desc initialにexpressするロゴのXcoordinatesです。
  * @parent logo1Coordinate
  * @type number
  * @default 408
  * 
  * @param logo1Y
- * @text ロゴ1Y座標
- * @desc 最初に表示するロゴのY座標です。
+ * @text ロゴ1Ycoordinates
+ * @desc initialにexpressするロゴのYcoordinatesです。
  * @parent logo1Coordinate
  * @type number
  * @default 312
  * 
  * @param logo1Origin
- * @text ロゴ1原点
- * @desc 最初に表示するロゴの座標原点です。
+ * @text ロゴ1origin
+ * @desc initialにexpressするロゴのcoordinate originです。
  * @parent logo1Coordinate
  * @default 0.5
  * @type select
- * @option 左上
+ * @option upper left
  * @value 0
- * @option 中央
+ * @option central
  * @value 0.5
  * 
  * @param logo1Time
- * @text ロゴ1表示時間
- * @desc 最初に表示するロゴの表示時間設定です。
+ * @text ロゴ1Express time
+ * @desc initialにexpressするロゴのexpress時間設定です。
  * @parent logo1
  * 
  * @param logo1FadeinFrames
- * @text ロゴ1フェードイン時間
- * @desc 最初に表示するロゴのフェードインフレーム数です。
+ * @text ロゴ1フェードインtime
+ * @desc initialにexpressするロゴのフェードインフレームnumberです。
  * @parent logo1Time
  * @type number
  * @default 12
  * @min 1
  * 
  * @param logo1FadeoutFrames
- * @text ロゴ1フェードアウト時間
- * @desc 最初に表示するロゴのフェードアウトフレーム数です。
+ * @text ロゴ1フェードアウトtime
+ * @desc initialにexpressするロゴのフェードアウトフレームnumberです。
  * @parent logo1Time
  * @type number
  * @default 12
  * @min 1
  * 
  * @param logo1DurationFrames
- * @text ロゴ1表示時間
- * @desc 最初に表示するロゴの表示フレーム数です。
+ * @text ロゴ1Express time
+ * @desc initialにexpressするロゴのexpressフレームnumberです。
  * @parent logo1Time
  * @type number
  * @default 120
  * @min 1
  * 
  * @param logo2
- * @text ロゴ2設定
- * @desc 2番目に表示するロゴの設定です。
+ * @text ロゴ2settings
+ * @desc 2Sectionにexpressするロゴのsettingsです。
  * 
  * @param logo2ImageName
- * @text ロゴ2画像名
- * @desc 2番目に表示するロゴの画像ファイル名です。未設定の場合、次のロゴが表示されます。
+ * @text ロゴ2Portrait name
+ * @desc 2Sectionにexpressするロゴのportraitファイルnameです。Not setのoccasion、Second-rateのロゴがexpressされます。
  * @parent logo2
  * @type file
  * @dir img/system
  * 
  * @param logo2Skippable
- * @text ロゴ2スキップ可能
- * @desc オンにすると2番目に表示するロゴをボタン押下によりスキップ可能になります。
+ * @text ロゴ2スキップpossible
+ * @desc オンにすると2Sectionにexpressするロゴをボタンtake custodyによりスキップpossibleになります。
  * @parent logo2
  * @type boolean
  * @default true
  * 
  * @param logo2Coordinate
- * @text ロゴ2座標
- * @desc 2番目に表示するロゴの座標設定です。
+ * @text ロゴ2coordinates
+ * @desc 2SectionにexpressするロゴのCoordinate settingです。
  * @parent logo2
  * 
  * @param logo2X
- * @text ロゴ2X座標
- * @desc 2番目に表示するロゴのX座標です。
+ * @text ロゴ2Xcoordinates
+ * @desc 2SectionにexpressするロゴのXcoordinatesです。
  * @parent logo2Coordinate
  * @type number
  * @default 408
  * 
  * @param logo2Y
- * @text ロゴ2Y座標
- * @desc 2番目に表示するロゴのY座標です。
+ * @text ロゴ2Ycoordinates
+ * @desc 2SectionにexpressするロゴのYcoordinatesです。
  * @parent logo2Coordinate
  * @type number
  * @default 312
  * 
  * @param logo2Origin
- * @text ロゴ2原点
- * @desc 2番目に表示するロゴの座標原点です。
+ * @text ロゴ2origin
+ * @desc 2Sectionにexpressするロゴのcoordinate originです。
  * @parent logo2Coordinate
  * @default 0.5
  * @type select
- * @option 左上
+ * @option upper left
  * @value 0
- * @option 中央
+ * @option central
  * @value 0.5
  * 
  * @param logo2Time
- * @text ロゴ2表示時間
- * @desc 2番目に表示するロゴの表示時間設定です。
+ * @text ロゴ2Express time
+ * @desc 2Sectionにexpressするロゴのexpress時間設定です。
  * @parent logo2
  * 
  * @param logo2FadeinFrames
- * @text ロゴ2フェードイン時間
- * @desc 2番目に表示するロゴのフェードインフレーム数です。
+ * @text ロゴ2フェードインtime
+ * @desc 2Sectionにexpressするロゴのフェードインフレームnumberです。
  * @parent logo2Time
  * @type number
  * @default 12
  * @min 1
  * 
  * @param logo2FadeoutFrames
- * @text ロゴ2フェードアウト時間
- * @desc 2番目に表示するロゴのフェードアウトフレーム数です。
+ * @text ロゴ2フェードアウトtime
+ * @desc 2Sectionにexpressするロゴのフェードアウトフレームnumberです。
  * @parent logo2Time
  * @type number
  * @default 12
  * @min 1
  * 
  * @param logo2DurationFrames
- * @text ロゴ2表示時間
- * @desc 2番目に表示するロゴの表示フレーム数です。
+ * @text ロゴ2Express time
+ * @desc 2Sectionにexpressするロゴのexpressフレームnumberです。
  * @parent logo2Time
  * @type number
  * @default 120
  * @min 1
  * 
  * @param logo3
- * @text ロゴ3設定
- * @desc 3番目に表示するロゴの設定です。
+ * @text ロゴ3settings
+ * @desc 3Sectionにexpressするロゴのsettingsです。
  * 
  * @param logo3ImageName
- * @text ロゴ3画像名
- * @desc 3番目に表示するロゴの画像ファイル名です。未設定の場合、タイトル画面に移行します。
+ * @text ロゴ3Portrait name
+ * @desc 3Sectionにexpressするロゴのportraitファイルnameです。Not setのoccasion、タイトルPictureにmigrationします。
  * @parent logo3
  * @type file
  * @dir img/system
  * 
  * @param logo3Skippable
- * @text ロゴ3スキップ可能
- * @desc オンにすると3番目に表示するロゴをボタン押下によりスキップ可能になります。
+ * @text ロゴ3スキップpossible
+ * @desc オンにすると3Sectionにexpressするロゴをボタンtake custodyによりスキップpossibleになります。
  * @parent logo3
  * @type boolean
  * @default true
  * 
  * @param logo3Coordinate
- * @text ロゴ3座標
- * @desc 3番目に表示するロゴの座標設定です。
+ * @text ロゴ3coordinates
+ * @desc 3SectionにexpressするロゴのCoordinate settingです。
  * @parent logo3
  * 
  * @param logo3X
- * @text ロゴ3X座標
- * @desc 3番目に表示するロゴのX座標です。
+ * @text ロゴ3Xcoordinates
+ * @desc 3SectionにexpressするロゴのXcoordinatesです。
  * @parent logo3Coordinate
  * @type number
  * @default 408
  * 
  * @param logo3Y
- * @text ロゴ3Y座標
- * @desc 3番目に表示するロゴのY座標です。
+ * @text ロゴ3Ycoordinates
+ * @desc 3SectionにexpressするロゴのYcoordinatesです。
  * @parent logo3Coordinate
  * @type number
  * @default 312
  * 
  * @param logo3Origin
- * @text ロゴ3原点
- * @desc 3番目に表示するロゴの座標原点です。
+ * @text ロゴ3origin
+ * @desc 3Sectionにexpressするロゴのcoordinate originです。
  * @parent logo3Coordinate
  * @default 0.5
  * @type select
- * @option 左上
+ * @option upper left
  * @value 0
- * @option 中央
+ * @option central
  * @value 0.5
  * 
  * @param logo3Time
- * @text ロゴ3表示時間
- * @desc 3番目に表示するロゴの表示時間設定です。
+ * @text ロゴ3Express time
+ * @desc 3Sectionにexpressするロゴのexpress時間設定です。
  * @parent logo3
  * 
  * @param logo3FadeinFrames
- * @text ロゴ3フェードイン時間
- * @desc 3番目に表示するロゴのフェードインフレーム数です。
+ * @text ロゴ3フェードインtime
+ * @desc 3Sectionにexpressするロゴのフェードインフレームnumberです。
  * @parent logo3Time
  * @type number
  * @default 12
  * @min 1
  * 
  * @param logo3FadeoutFrames
- * @text ロゴ3フェードアウト時間
- * @desc 3番目に表示するロゴのフェードアウトフレーム数です。
+ * @text ロゴ3フェードアウトtime
+ * @desc 3Sectionにexpressするロゴのフェードアウトフレームnumberです。
  * @parent logo3Time
  * @type number
  * @default 12
  * @min 1
  * 
  * @param logo3DurationFrames
- * @text ロゴ3表示時間
- * @desc 3番目に表示するロゴの表示フレーム数です。
+ * @text ロゴ3Express time
+ * @desc 3Sectionにexpressするロゴのexpressフレームnumberです。
  * @parent logo3Time
  * @type number
  * @default 120
  * @min 1
  * 
  * @param allowTotalSkip
- * @text 全スキップを許可
- * @desc オンにすると一回のボタン押下によりすべてのロゴがスキップされます（スキップ可能なもののみ）。
+ * @text Completeスキップをpermission
+ * @desc オンにするとonceのボタンtake custodyによりすべてのロゴがスキップされます（スキップpossibleなもののみ）。
  * @type boolean
  * @default true
  * 

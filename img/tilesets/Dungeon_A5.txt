@@ -1,128 +1,128 @@
-﻿Darkness|暗闇
-Translucent Floor A|半透明の床A
-Translucent Floor B|半透明の床B
-Translucent Floor C|半透明の床C
-Translucent Floor D|半透明の床D
-Stairs A (Translucent)|階段A（半透明）
-Stairs B (Translucent)|階段B（半透明）
-Wire Mesh|金網
-Transparent|透明
-Translucent Floor A|半透明の床A
-Translucent Floor B|半透明の床B
-Translucent Floor C|半透明の床C
-Translucent Floor D|半透明の床D
-Stairs A (Translucent)|階段C（半透明）
-Stairs B (Translucent)|階段D（半透明）
-Wire Mesh|金網
-Ground A (Dirt Cave)|床A（土洞窟）
-Ground B (Rock Cave)|床B（岩洞窟）
-Ground C (Lava Cave)|床C（溶岩洞窟）
-Ground D (Ice Cave)|床D（氷洞窟）
-Ground E (Grass Maze)|床E（草迷宮）
-Ground F (Crystal)|床F（水晶）
-Ground G (In Body)|床G（体内）
-Ground H (Demonic World)|床H（魔界）
-Stairs A (Dirt Cave, Left)|階段A（土洞窟・左）
-Stairs A (Dirt Cave, Center)|階段A（土洞窟・中央）
-Stairs A (Dirt Cave, Right)|階段A（土洞窟・右）
-Stairs A (Dirt Cave)|階段A（土洞窟）
-Stairs B (Rock Cave, Left)|階段B（岩洞窟・左）
-Stairs B (Rock Cave, Center)|階段B（岩洞窟・中央）
-Stairs B (Rock Cave, Right)|階段B（岩洞窟・右）
-Stairs B (Rock Cave)|階段B（岩洞窟）
-Cobblestones A|石畳A
-Cobblestones B|石畳B
-Cobblestones C|石畳C
-Cobblestones D|石畳D
-Cobblestones E|石畳E
-Cobblestones F|石畳F
-Cobblestones G|石畳G
-Interior Floor A (Demon Castle)|内装床A（魔王城）
-Stairs C (Lava Cave, Left)|階段C（溶岩洞窟・左）
-Stairs C (Lava Cave, Center)|階段C（溶岩洞窟・中央）
-Stairs C (Lava Cave, Right)|階段C（溶岩洞窟・右）
-Stairs C (Lava Cave)|階段C（溶岩洞窟）
-Stairs D (Ice Cave, Left)|階段D（氷洞窟・左）
-Stairs D (Ice Cave, Center)|階段D（氷洞窟・中央）
-Stairs D (Ice Cave, Right)|階段D（氷洞窟・右）
-Stairs D (Ice Cave)|階段D（氷洞窟）
-Cobblestones H|石畳H
-Interior Floor B (Concrete)|内装床B（コンクリート）
-Icy Ground A|氷の床A
-Interior Floor C (Factory)|内装床C（工場）
-Decorative Tile|舗装床
-Cobblestones I|石畳I
-Cobblestones J|石畳J
-Decorative Tile|化粧タイル
-Stairs E (Grass Maze, Left)|階段E（草迷宮・左）
-Stairs E (Grass Maze, Center)|階段E（草迷宮・中央）
-Stairs E (Grass Maze, Right)|階段E（草迷宮・右）
-Stairs E (Grass Maze)|階段E（草迷宮）
-Stairs F (Crystal, Left)|階段F（水晶・左）
-Stairs F (Crystal, Center)|階段F（水晶・中央）
-Stairs F (Crystal, Right)|階段F（水晶・右）
-Stairs F (Crystal)|階段F（水晶）
-Stairs G (In Body, Left)|階段G（体内・左）
-Stairs G (In Body, Center)|階段G（体内・中央）
-Stairs G (In Body, Right)|階段G（体内・右）
-Stairs G (In Body)|階段G（体内）
-Stairs H (Demonic World, Left)|階段H（魔界・左）
-Stairs H (Demonic World, Center)|階段H（魔界・中央）
-Stairs H (Demonic World, Right)|階段H（魔界・右）
-Stairs H (Demonic World)|階段H（魔界）
-Stairs I (Stone, Left)|階段I（石・左）
-Stairs I (Stone, Center)|階段I（石・中央）
-Stairs I (Stone, Right)|階段I（石・右）
-Stairs I (Stone)|階段I（石）
-Stairs J (Ruins, Left)|階段J（廃墟・左）
-Stairs J (Ruins, Center)|階段J（廃墟・中央）
-Stairs J (Ruins, Right)|階段J（廃墟・右）
-Stairs J (Ruins)|階段J（廃墟）
-Stairs K (Stone, Left)|階段K（石・左）
-Stairs K (Stone, Center)|階段K（石・中央）
-Stairs K (Stone, Right)|階段K（石・右）
-Stairs K (Stone)|階段K（石）
-Stairs L (Ruins, Left)|階段L（廃墟・左）
-Stairs L (Ruins, Center)|階段L（廃墟・中央）
-Stairs L (Ruins, Right)|階段L（廃墟・右）
-Stairs L (Ruins)|階段L（廃墟）
-Ground (Dirt Cave, Ruins)|床A（土洞窟・廃墟）
-Ground (Rock Cave, Ruins)|床B（岩洞窟・廃墟）
-Ground (Lava Cave, Ruins)|床C（溶岩洞窟・廃墟）
-Ground (Ice Cave, Ruins)|床D（氷洞窟・廃墟）
-Ground (Grass Maze, Ruins)|床E（草迷宮・廃墟）
-Ground (Crystal, Ruins)|床F（水晶・廃墟）
-Ground (In Body, Ruins)|床G（体内・廃墟）
-Ground (Demonic World, Ruins)|床H（魔界・廃墟）
-Cobblestones A (Ruins)|石畳A（廃墟）
-Cobblestones B (Ruins)|石畳B（廃墟）
-Cobblestones C (Ruins)|石畳C（廃墟）
-Cobblestones D (Ruins)|石畳D（廃墟）
-Cobblestones E (Ruins)|石畳E（廃墟）
-Cobblestones F (Ruins)|石畳F（廃墟）
-Cobblestones G (Ruins)|石畳G（廃墟）
-Interior Floor A (Demon Castle, Ruins)|内装床A（魔王城・廃墟）
-Cobblestones H (Ruins)|石畳H（廃墟）
-Interior Floor B (Concrete, Ruins)|内装床B（コンクリート・廃墟）
-Icy Ground B|氷の床B
-Interior Floor D (Factory)|内装床D（工場）
-Decorative Tile (Ruins)|舗装床（廃墟）
-Cobblestones I (Ruins)|石畳I（廃墟）
-Cobblestones J (Ruins)|石畳J（廃墟）
-Decorative Tile (Ruins)|化粧タイル（廃墟）
-Large Relief Floor Tile A|大きなレリーフ床A
-Large Relief Floor Tile A|大きなレリーフ床A
-Large Relief Floor Tile B|大きなレリーフ床B
-Large Relief Floor Tile B|大きなレリーフ床B
-Directional Floor Tile A (Down)|方向床A（下）
-Directional Floor Tile B (Up)|方向床B（上）
-Relief Floor Tile A (Gold)|レリーフ床A（金）
-Relief Floor Tile B (Gold)|レリーフ床B（金）
-Large Relief Floor Tile A|大きなレリーフ床A
-Large Relief Floor Tile A|大きなレリーフ床A
-Large Relief Floor Tile B|大きなレリーフ床B
-Large Relief Floor Tile B|大きなレリーフ床B
-Directional Floor Tile C (Left)|方向床C（左）
-Directional Floor Tile D (Right)|方向床D（右）
-Relief Floor Tile C (Gold)|レリーフ床C（金）
-Relief Floor Tile D (Gold, Ruins)|レリーフ床D（金・廃墟）
+﻿Darkness|secretly
+Translucent Floor A|translucentのbedA
+Translucent Floor B|translucentのbedB
+Translucent Floor C|translucentのbedC
+Translucent Floor D|translucentのbedD
+Stairs A (Translucent)|stageA（translucent）
+Stairs B (Translucent)|stageB（translucent）
+Wire Mesh|Golden Net
+Transparent|transparent
+Translucent Floor A|translucentのbedA
+Translucent Floor B|translucentのbedB
+Translucent Floor C|translucentのbedC
+Translucent Floor D|translucentのbedD
+Stairs A (Translucent)|stageC（translucent）
+Stairs B (Translucent)|stageD（translucent）
+Wire Mesh|Golden Net
+Ground A (Dirt Cave)|bedA（earth cave）
+Ground B (Rock Cave)|bedB（rock cave）
+Ground C (Lava Cave)|bedC（lava cave）
+Ground D (Ice Cave)|bedD（ice cave）
+Ground E (Grass Maze)|bedE（grass maze）
+Ground F (Crystal)|bedF（crystal）
+Ground G (In Body)|bedG（in vivo）
+Ground H (Demonic World)|bedH（Demonic world）
+Stairs A (Dirt Cave, Left)|stageA（earth cave・Left）
+Stairs A (Dirt Cave, Center)|stageA（earth cave・central）
+Stairs A (Dirt Cave, Right)|stageA（earth cave・right）
+Stairs A (Dirt Cave)|stageA（earth cave）
+Stairs B (Rock Cave, Left)|stageB（rock cave・Left）
+Stairs B (Rock Cave, Center)|stageB（rock cave・central）
+Stairs B (Rock Cave, Right)|stageB（rock cave・right）
+Stairs B (Rock Cave)|stageB（rock cave）
+Cobblestones A|stone panA
+Cobblestones B|stone panB
+Cobblestones C|stone panC
+Cobblestones D|stone panD
+Cobblestones E|stone panE
+Cobblestones F|stone panF
+Cobblestones G|stone panG
+Interior Floor A (Demon Castle)|Built-in bedA（Demon King's Castle）
+Stairs C (Lava Cave, Left)|stageC（lava cave・Left）
+Stairs C (Lava Cave, Center)|stageC（lava cave・central）
+Stairs C (Lava Cave, Right)|stageC（lava cave・right）
+Stairs C (Lava Cave)|stageC（lava cave）
+Stairs D (Ice Cave, Left)|stageD（ice cave・Left）
+Stairs D (Ice Cave, Center)|stageD（ice cave・central）
+Stairs D (Ice Cave, Right)|stageD（ice cave・right）
+Stairs D (Ice Cave)|stageD（ice cave）
+Cobblestones H|stone panH
+Interior Floor B (Concrete)|Built-in bedB（コンクリート）
+Icy Ground A|iceのbedA
+Interior Floor C (Factory)|Built-in bedC（workshop）
+Decorative Tile|Make the bed
+Cobblestones I|stone panI
+Cobblestones J|stone panJ
+Decorative Tile|Makeupタイル
+Stairs E (Grass Maze, Left)|stageE（grass maze・Left）
+Stairs E (Grass Maze, Center)|stageE（grass maze・central）
+Stairs E (Grass Maze, Right)|stageE（grass maze・right）
+Stairs E (Grass Maze)|stageE（grass maze）
+Stairs F (Crystal, Left)|stageF（crystal・Left）
+Stairs F (Crystal, Center)|stageF（crystal・central）
+Stairs F (Crystal, Right)|stageF（crystal・right）
+Stairs F (Crystal)|stageF（crystal）
+Stairs G (In Body, Left)|stageG（in vivo・Left）
+Stairs G (In Body, Center)|stageG（in vivo・central）
+Stairs G (In Body, Right)|stageG（in vivo・right）
+Stairs G (In Body)|stageG（in vivo）
+Stairs H (Demonic World, Left)|stageH（Demonic world・Left）
+Stairs H (Demonic World, Center)|stageH（Demonic world・central）
+Stairs H (Demonic World, Right)|stageH（Demonic world・right）
+Stairs H (Demonic World)|stageH（Demonic world）
+Stairs I (Stone, Left)|stageI（stone・Left）
+Stairs I (Stone, Center)|stageI（stone・central）
+Stairs I (Stone, Right)|stageI（stone・right）
+Stairs I (Stone)|stageI（stone）
+Stairs J (Ruins, Left)|stageJ（Abandoned ruins・Left）
+Stairs J (Ruins, Center)|stageJ（Abandoned ruins・central）
+Stairs J (Ruins, Right)|stageJ（Abandoned ruins・right）
+Stairs J (Ruins)|stageJ（Abandoned ruins）
+Stairs K (Stone, Left)|stageK（stone・Left）
+Stairs K (Stone, Center)|stageK（stone・central）
+Stairs K (Stone, Right)|stageK（stone・right）
+Stairs K (Stone)|stageK（stone）
+Stairs L (Ruins, Left)|stageL（Abandoned ruins・Left）
+Stairs L (Ruins, Center)|stageL（Abandoned ruins・central）
+Stairs L (Ruins, Right)|stageL（Abandoned ruins・right）
+Stairs L (Ruins)|stageL（Abandoned ruins）
+Ground (Dirt Cave, Ruins)|bedA（earth cave・Abandoned ruins）
+Ground (Rock Cave, Ruins)|bedB（rock cave・Abandoned ruins）
+Ground (Lava Cave, Ruins)|bedC（lava cave・Abandoned ruins）
+Ground (Ice Cave, Ruins)|bedD（ice cave・Abandoned ruins）
+Ground (Grass Maze, Ruins)|bedE（grass maze・Abandoned ruins）
+Ground (Crystal, Ruins)|bedF（crystal・Abandoned ruins）
+Ground (In Body, Ruins)|bedG（in vivo・Abandoned ruins）
+Ground (Demonic World, Ruins)|bedH（Demonic world・Abandoned ruins）
+Cobblestones A (Ruins)|stone panA（Abandoned ruins）
+Cobblestones B (Ruins)|stone panB（Abandoned ruins）
+Cobblestones C (Ruins)|stone panC（Abandoned ruins）
+Cobblestones D (Ruins)|stone panD（Abandoned ruins）
+Cobblestones E (Ruins)|stone panE（Abandoned ruins）
+Cobblestones F (Ruins)|stone panF（Abandoned ruins）
+Cobblestones G (Ruins)|stone panG（Abandoned ruins）
+Interior Floor A (Demon Castle, Ruins)|Built-in bedA（Demon King's Castle・Abandoned ruins）
+Cobblestones H (Ruins)|stone panH（Abandoned ruins）
+Interior Floor B (Concrete, Ruins)|Built-in bedB（コンクリート・Abandoned ruins）
+Icy Ground B|iceのbedB
+Interior Floor D (Factory)|Built-in bedD（workshop）
+Decorative Tile (Ruins)|Make the bed（Abandoned ruins）
+Cobblestones I (Ruins)|stone panI（Abandoned ruins）
+Cobblestones J (Ruins)|stone panJ（Abandoned ruins）
+Decorative Tile (Ruins)|Makeupタイル（Abandoned ruins）
+Large Relief Floor Tile A|bigきなレリーフbedA
+Large Relief Floor Tile A|bigきなレリーフbedA
+Large Relief Floor Tile B|bigきなレリーフbedB
+Large Relief Floor Tile B|bigきなレリーフbedB
+Directional Floor Tile A (Down)|Orientation bedA（Down）
+Directional Floor Tile B (Up)|Orientation bedB（superior）
+Relief Floor Tile A (Gold)|レリーフbedA（gold）
+Relief Floor Tile B (Gold)|レリーフbedB（gold）
+Large Relief Floor Tile A|bigきなレリーフbedA
+Large Relief Floor Tile A|bigきなレリーフbedA
+Large Relief Floor Tile B|bigきなレリーフbedB
+Large Relief Floor Tile B|bigきなレリーフbedB
+Directional Floor Tile C (Left)|Orientation bedC（Left）
+Directional Floor Tile D (Right)|Orientation bedD（right）
+Relief Floor Tile C (Gold)|レリーフbedC（gold）
+Relief Floor Tile D (Gold, Ruins)|レリーフbedD（gold・Abandoned ruins）

@@ -1,32 +1,32 @@
-﻿Wood Floor A|木の床A
-Cobblestones A|石畳A
+﻿Wood Floor A|WoodのbedA
+Cobblestones A|stone panA
 Rug A|じゅうたんA
 Straw Mat|ござ
-Hole A (Wood Floor)|穴A（木の床）
-Raised Stone A|石段A
-Ground Cracks|床のひび割れ
+Hole A (Wood Floor)|holeA（Woodのbed）
+Raised Stone A|stone sectionA
+Ground Cracks|bedのひびcutれ
 Table A|テーブルA
-Wood Floor B|木の床B
-Cobblestones B|石畳B
+Wood Floor B|WoodのbedB
+Cobblestones B|stone panB
 Rug B|じゅうたんB
 Rug C|じゅうたんC
-Hole B (Wood Floor)|穴B（木の床）
-Raised Stone B|石段B
-Soil on Ground|床の汚れ
+Hole B (Wood Floor)|holeB（Woodのbed）
+Raised Stone B|stone sectionB
+Soil on Ground|bedのdirtyれ
 Table B|テーブルB
-Cobblestones C|石畳C
-Cobblestones D|石畳D
+Cobblestones C|stone panC
+Cobblestones D|stone panD
 Rug D|じゅうたんD
-Demon Castle Floor|魔王城の床
-Hole C (Stone Floor)|穴C（石の床）
-Raised Stone C|石段C
-Moss on Ground|床の苔
+Demon Castle Floor|Demon King's Castleのbed
+Hole C (Stone Floor)|holeC（stoneのbed）
+Raised Stone C|stone sectionC
+Moss on Ground|bedのmoss
 Table C|テーブルC
-Cobblestones E|石畳E
-Cobblestones F|石畳F
+Cobblestones E|stone panE
+Cobblestones F|stone panF
 Rug E|じゅうたんE
 Rug F|じゅうたんF
-Hole D|穴D
-Raised Stone D|石段D
-Wire mesh|金網
+Hole D|holeD
+Raised Stone D|stone sectionD
+Wire mesh|Golden Net
 Table D|テーブルD

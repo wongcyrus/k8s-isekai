@@ -1,107 +1,107 @@
-﻿Cup & Teapot A (Bottom)|カップとポットA（下）
-Cup & Teapot B (Top)|カップとポットB（上）
-Cup & Teapot C (Left)|カップとポットC（左）
-Cup & Teapot D (Right)|カップとポットD（右）
-Cup A (Bottom)|カップA（下）
-Cup B (Top)|カップB（上）
-Cup C (Left)|カップC（左）
-Cup D (Right)|カップD（右）
-Glass & Bottle A (Bottom)|グラスとボトルA（下）
-Glass & Bottle B (Top)|グラスとボトルB（上）
-Glass & Bottle C (Left)|グラスとボトルC（左）
-Glass & Bottle D (Right)|グラスとボトルD（右）
-Glass A (Bottom)|グラスA（下）
-Glass B (Top)|グラスB（上）
-Glass C (Left)|グラスC（左）
-Glass D (Right)|グラスD（右）
-Pint Mug & Ale Bottle A (Bottom)|ジョッキと瓶A（下）
-Pint Mug & Ale Bottles B (Top)|ジョッキと瓶B（上）
-Pint Mug & Ale Bottles C (Left)|ジョッキと瓶C（左）
-Pint Mug & Ale Bottle D (Right)|ジョッキと瓶D（右）
-Pint Mug A (Bottom)|ジョッキA（下）
-Pint Mug B (Top)|ジョッキB（上）
-Pint Mug C (Left)|ジョッキC（左）
-Pint Mug D (Right)|ジョッキD（右）
+﻿Cup & Teapot A (Bottom)|カップとポットA（Down）
+Cup & Teapot B (Top)|カップとポットB（superior）
+Cup & Teapot C (Left)|カップとポットC（Left）
+Cup & Teapot D (Right)|カップとポットD（right）
+Cup A (Bottom)|カップA（Down）
+Cup B (Top)|カップB（superior）
+Cup C (Left)|カップC（Left）
+Cup D (Right)|カップD（right）
+Glass & Bottle A (Bottom)|グラスとボトルA（Down）
+Glass & Bottle B (Top)|グラスとボトルB（superior）
+Glass & Bottle C (Left)|グラスとボトルC（Left）
+Glass & Bottle D (Right)|グラスとボトルD（right）
+Glass A (Bottom)|グラスA（Down）
+Glass B (Top)|グラスB（superior）
+Glass C (Left)|グラスC（Left）
+Glass D (Right)|グラスD（right）
+Pint Mug & Ale Bottle A (Bottom)|ジョッキとbottleA（Down）
+Pint Mug & Ale Bottles B (Top)|ジョッキとbottleB（superior）
+Pint Mug & Ale Bottles C (Left)|ジョッキとbottleC（Left）
+Pint Mug & Ale Bottle D (Right)|ジョッキとbottleD（right）
+Pint Mug A (Bottom)|ジョッキA（Down）
+Pint Mug B (Top)|ジョッキB（superior）
+Pint Mug C (Left)|ジョッキC（Left）
+Pint Mug D (Right)|ジョッキD（right）
 Teapot|ポット
 Bottle A|ボトルA
 Bottles B|ボトルB
 Bottles C|ボトルC
-Broken Bottle|割れたボトル
-Ale Bottle A|瓶A
-Ale Bottles B|瓶B
-Ale Bottles C|瓶C
-Meal (Fish)|魚料理
-Meal (Meat)|肉料理
-Side Dishes|副菜
-Fruit Bowl|フルーツ盛り合わせ
-Roast Pig|丸焼き
+Broken Bottle|cutれたボトル
+Ale Bottle A|bottleA
+Ale Bottles B|bottleB
+Ale Bottles C|bottleC
+Meal (Fish)|fish dishes
+Meal (Meat)|Meat dishes
+Side Dishes|Side dishes
+Fruit Bowl|フルーツprosperousりcombineわせ
+Roast Pig|Maruyakiき
 Cake|ケーキ
 Pizza|ピザ
-Meal (Fish)|魚料理
-Dinner Set A (Bottom)|夕食セットA（下）
-Dinner Set B (Top)|夕食セットB（上）
-Dinner Set C (Left)|夕食セットC（左）
-Dinner Set D (Right)|夕食セットD（右）
+Meal (Fish)|fish dishes
+Dinner Set A (Bottom)|Evening mealセットA（Down）
+Dinner Set B (Top)|Evening mealセットB（superior）
+Dinner Set C (Left)|Evening mealセットC（Left）
+Dinner Set D (Right)|Evening mealセットD（right）
 Pie|パイ
 Fried Rice|チャーハン
-Mystery Dishes|謎の料理
-Cooking Disaster|失敗料理
-Breakfast Set A (Bottom)|朝食セットA（下）
-Breakfast Set B (Top)|朝食セットB（上）
-Breakfast Set C (Left)|朝食セットC（左）
-Breakfast Set D (Right)|朝食セットD（右）
-Plate A|皿A
+Mystery Dishes|mysteryのCuisine
+Cooking Disaster|Failure cooking
+Breakfast Set A (Bottom)|Morning mealセットA（Down）
+Breakfast Set B (Top)|Morning mealセットB（superior）
+Breakfast Set C (Left)|Morning mealセットC（Left）
+Breakfast Set D (Right)|Morning mealセットD（right）
+Plate A|dishA
 Bowl|ボウル
-Plates B|皿B
-Plates C|皿C
-Closed Book A (Bottom)|閉じた本A（下）
-Closed Book B (Top)|閉じた本B（上）
-Closed Book C (Left)|閉じた本C（左）
-Closed Book D (Right)|閉じた本D（右）
-Open Book A (Bottom)|開いた本A（下）
-Open Book B (Top)|開いた本B（上）
-Open Book C (Left)|開いた本C（左）
-Open Book D (Right)|開いた本D（右）
-Closed Old Book A (Bottom)|閉じた古文書A（下）
-Closed Old Book B (Top)|閉じた古文書B（上）
-Closed Old Book C (Left)|閉じた古文書C（左）
-Closed Old Book D (Right)|閉じた古文書D（右）
-Open Old Book A (Bottom)|開いた古文書A（下）
-Open Old Book B (Top)|開いた古文書B（上）
-Open Old Book C (Left)|開いた古文書C（左）
-Open Old Book D (Right)|開いた古文書D（右）
-Notes & Pen A (Bottom)|メモとペンA（下）
-Notes & Pen B (Top)|メモとペンB（上）
-Notes & Pen C (Left)|メモとペンC（左）
-Notes & Pen D (Right)|メモとペンD（右）
-Map A (Bottom)|地図A（下）
-Map B (Top)|地図B（上）
-Map C (Left)|地図C（左）
-Map D (Right)|地図D（右）
-Envelope & Letter|封筒と便箋
-Envelope|封筒
-Scrolls A|巻物A
-Scrolls B|巻物B
-Vase|花瓶
-Potted Plant A|植木鉢A
-Potted Plant B|植木鉢B
+Plates B|dishB
+Plates C|dishC
+Closed Book A (Bottom)|closeじたBookA（Down）
+Closed Book B (Top)|closeじたBookB（superior）
+Closed Book C (Left)|closeじたBookC（Left）
+Closed Book D (Right)|closeじたBookD（right）
+Open Book A (Bottom)|openいたBookA（Down）
+Open Book B (Top)|openいたBookB（superior）
+Open Book C (Left)|openいたBookC（Left）
+Open Book D (Right)|openいたBookD（right）
+Closed Old Book A (Bottom)|closeじたancient documentsA（Down）
+Closed Old Book B (Top)|closeじたancient documentsB（superior）
+Closed Old Book C (Left)|closeじたancient documentsC（Left）
+Closed Old Book D (Right)|closeじたancient documentsD（right）
+Open Old Book A (Bottom)|openいたancient documentsA（Down）
+Open Old Book B (Top)|openいたancient documentsB（superior）
+Open Old Book C (Left)|openいたancient documentsC（Left）
+Open Old Book D (Right)|openいたancient documentsD（right）
+Notes & Pen A (Bottom)|メモとペンA（Down）
+Notes & Pen B (Top)|メモとペンB（superior）
+Notes & Pen C (Left)|メモとペンC（Left）
+Notes & Pen D (Right)|メモとペンD（right）
+Map A (Bottom)|地図A（Down）
+Map B (Top)|地図B（superior）
+Map C (Left)|地図C（Left）
+Map D (Right)|地図D（right）
+Envelope & Letter|seal tubeとNotes
+Envelope|seal tube
+Scrolls A|VolumeA
+Scrolls B|VolumeB
+Vase|vase
+Potted Plant A|UekiboA
+Potted Plant B|UekiboB
 Planter|プランター
 Case A|ケースA
 Case B|ケースB
 Letter Case|レターケース
-Cutting Board|まな板
-Small Box A|小箱A
-Small Box B|小箱B
-Small Box C|小箱C
-Small Box D|小箱D
-Sack A|袋A
-Sacks B|袋B
-Sacks C|袋C
-Medicine Bottle A|薬瓶A
-Medicine Bottles B|薬瓶B
-Medicine Bottles C|薬瓶C
-Potion A|液体入り瓶A
-Potions B|液体入り瓶B
+Cutting Board|まなplate
+Small Box A|small boxA
+Small Box B|small boxB
+Small Box C|small boxC
+Small Box D|small boxD
+Sack A|bagA
+Sacks B|bagB
+Sacks C|bagC
+Medicine Bottle A|bottleA
+Medicine Bottles B|bottleB
+Medicine Bottles C|bottleC
+Potion A|liquid intoりbottleA
+Potions B|liquid intoりbottleB
 Basket A|バスケットA
 Basket B|バスケットB
 Basket C|バスケットC
@@ -109,13 +109,13 @@ Basket D|バスケットD
 Rugs A|じゅうたんA
 Rugs B|じゅうたんB
 Rugs C|じゅうたんC
-Lab Equipment|実験器具
+Lab Equipment|Ceramic utensils
 Stuffed Doll A|ぬいぐるみA
 Stuffed Doll B|ぬいぐるみB
 Stuffed Doll C|ぬいぐるみC
 Stuffed Doll D|ぬいぐるみD
-Doll A|人形A
-Doll B|人形B
+Doll A|HumanoidA
+Doll B|HumanoidB
 Gifts A|プレゼントA
 Gifts B|プレゼントB
 Shovel|スコップ
@@ -123,134 +123,134 @@ Pickax|つるはし
 Rope A|ロープA
 Rope B|ロープB
 Pendant|ペンダント
-Jewelry Case A|宝石ケースA
+Jewelry Case A|gemケースA
 Necklace|ネックレス
-Jewelry Case B|宝石ケースB
+Jewelry Case B|gemケースB
 Sword A|剣A
 Swords B|剣B
 Swords C|剣C
-Axes|斧
-Spears A|槍A
-Spears B|槍B
-Whip|鞭
-Knives|短剣
-Cooking Utensils|調理器具
+Axes|ax
+Spears A|gunA
+Spears B|gunB
+Whip|whip
+Knives|short sword
+Cooking Utensils|Cooking utensils
 Dry Flowers|ドライフラワー
-Shield A|盾A
-Shield B|盾B
-Men's Clothing A (Hanging)|男物の服A（壁掛け）
-Men's Clothing B (Hanging)|男物の服B（壁掛け）
-Women's Clothing A (Hanging)|女物の服A（壁掛け）
-Women's Clothing B (Hanging)|女物の服B（壁掛け）
-Sword Rack A|剣掛台A
-Sword Rack B|剣掛台B
+Shield A|shieldA
+Shield B|shieldB
+Men's Clothing A (Hanging)|male objectのClothesA（wall hangingけ）
+Men's Clothing B (Hanging)|male objectのClothesB（wall hangingけ）
+Women's Clothing A (Hanging)|womanのClothesA（wall hangingけ）
+Women's Clothing B (Hanging)|womanのClothesB（wall hangingけ）
+Sword Rack A|hanging platformA
+Sword Rack B|hanging platformB
 Hammers|ハンマー
-Bows & Arrows|弓矢
-Blacksmith's Table A|金床A
-Blacksmith's Table B|金床B
-Large Basin|水桶
-Scrap Metal|鉄くず
-Helmet A|兜A
-Helmet B|兜B
-Helmet C|兜C
-Hat A (Stand)|帽子A（スタンド）
-Hat B (Stand)|帽子B（スタンド）
-Hat C (Stand)|帽子C（スタンド）
-Women's Clothing (Stand)|女物の服（スタンド）
+Bows & Arrows|Bow arrow
+Blacksmith's Table A|gold bedA
+Blacksmith's Table B|gold bedB
+Large Basin|bucket
+Scrap Metal|Ironくず
+Helmet A|pocketA
+Helmet B|pocketB
+Helmet C|pocketC
+Hat A (Stand)|hatA（スタンド）
+Hat B (Stand)|hatB（スタンド）
+Hat C (Stand)|hatC（スタンド）
+Women's Clothing (Stand)|womanのClothes（スタンド）
 Dress (Stand)|ドレス（スタンド）
-Armor A (Stand)|鎧A（スタンド）
-Armor B (Stand)|鎧B（スタンド）
-Armor C (Stand)|鎧C（スタンド）
-Armor D (Stand)|鎧D（スタンド）
-Men's Clothing (Stand)|男物の服（スタンド）
+Armor A (Stand)|armorA（スタンド）
+Armor B (Stand)|armorB（スタンド）
+Armor C (Stand)|armorC（スタンド）
+Armor D (Stand)|armorD（スタンド）
+Men's Clothing (Stand)|male objectのClothes（スタンド）
 Cape (Stand)|マント（スタンド）
 Robe A (Stand)|ローブA（スタンド）
 Robe B (Stand)|ローブB（スタンド）
-Church Symbol|教会のシンボル
-Angel Statue A|天使像A
-Angel Statue B|天使像B
-Goddess Statue|女神像
-Statue|石像
-Dais|台座
-Repository of Swords|剣立て
-Repository of Spears|槍立て
-Church Symbol|教会のシンボル
-Angel Statue A|天使像A
-Angel Statue B|天使像B
-Goddess Statue|女神像
-Statue|石像
-Broken Statue|壊れた像
-Repository of Swords|剣立て
-Repository of Spears|槍立て
-Church Table A|教会机A
-Church Table A|教会机A
-Church Table A|教会机A
-Church Table B|教会机B
-Decorative Pillar A|装飾柱A
-Decorative Pillar B|装飾柱B
-Decorative Pillar A (Ruins)|装飾柱A（廃墟）
-Decorative Pillar B (Ruins)|装飾柱B（廃墟）
-Church Table A|教会机A
-Church Table A|教会机A
-Church Table A|教会机A
-Church Table B|教会机B
-Decorative Pillar A|装飾柱A
-Decorative Pillar B|装飾柱B
-Decorative Pillar A (Ruins)|装飾柱A（廃墟）
-Decorative Pillar B (Ruins)|装飾柱B（廃墟）
-Gold Bricks A|金の延べ棒A
-Gold Bricks B|金の延べ棒B
-Silver Bricks A|銀の延べ棒A
-Silver Bricks B|銀の延べ棒B
-Decorative Pillar A|装飾柱A
-Decorative Pillar B|装飾柱B
-Decorative Pillar A (Ruins)|装飾柱A（廃墟）
-Decorative Pillar B (Ruins)|装飾柱B（廃墟）
-Monument A|石碑A
-Monument B|石碑B
-Demon Statue|悪魔像
-Dragon Statue|竜像
-Dragon Statue|竜像
-Large Monument|大きな石碑
-Large Monument|大きな石碑
-Large Monument|大きな石碑
-Monument A|石碑A
-Monument C|石碑C
-Demon Statue|悪魔像
-Dragon Statue|竜像
-Dragon Statue|竜像
-Large Monument|大きな石碑
-Large Monument|大きな石碑
-Large Monument|大きな石碑
-Railings (Wood)|段差用手すり（木製）
-Railings (Wood)|段差用手すり（木製）
-Railings (Wood)|段差用手すり（木製）
-Railings (Wood)|段差用手すり（木製）
-Railings (Wood)|段差用手すり（木製）
-Railings (Wood)|段差用手すり（木製）
-Railings (Wood)|段差用手すり（木製）
-Railings (Wood)|段差用手すり（木製）
-Banister A (Wood)|階段用手すりA（木製）
-Banister A (Wood)|階段用手すりA（木製）
-Banister B (Stone)|階段用手すりB（石）
-Banister B (Stone)|階段用手すりB（石）
-Banister C (Temple)|階段用手すりC（神殿）
-Banister C (Temple)|階段用手すりC（神殿）
-Banister D (Castle)|階段用手すりD（城）
-Banister D (Castle)|階段用手すりD（城）
-Banister A (Wood)|階段用手すりA（木製）
-Banister A (Wood)|階段用手すりA（木製）
-Banister B (Stone)|階段用手すりB（石）
-Banister B (Stone)|階段用手すりB（石）
-Banister C (Temple)|階段用手すりC（神殿）
-Banister C (Temple)|階段用手すりC（神殿）
-Banister D (Castle)|階段用手すりD（城）
-Banister D (Castle)|階段用手すりD（城）
-Banister A (Wood)|階段用手すりA（木製）
-Banister A (Wood)|階段用手すりA（木製）
-Banister B (Stone)|階段用手すりB（石）
-Banister B (Stone)|階段用手すりB（石）
-Banister C (Temple)|階段用手すりC（神殿）
-Banister C (Temple)|階段用手すりC（神殿）
-Banister D (Castle)|階段用手すりD（城）
-Banister D (Castle)|階段用手すりD（城）
+Church Symbol|churchのシンボル
+Angel Statue A|angel statueA
+Angel Statue B|angel statueB
+Goddess Statue|goddess statue
+Statue|stone statue
+Dais|pedestal
+Repository of Swords|standて
+Repository of Spears|gun standて
+Church Symbol|churchのシンボル
+Angel Statue A|angel statueA
+Angel Statue B|angel statueB
+Goddess Statue|goddess statue
+Statue|stone statue
+Broken Statue|Leiれたpicture
+Repository of Swords|standて
+Repository of Spears|gun standて
+Church Table A|Teaching machineA
+Church Table A|Teaching machineA
+Church Table A|Teaching machineA
+Church Table B|Teaching machineB
+Decorative Pillar A|decorative columnA
+Decorative Pillar B|decorative columnB
+Decorative Pillar A (Ruins)|decorative columnA（Abandoned ruins）
+Decorative Pillar B (Ruins)|decorative columnB（Abandoned ruins）
+Church Table A|Teaching machineA
+Church Table A|Teaching machineA
+Church Table A|Teaching machineA
+Church Table B|Teaching machineB
+Decorative Pillar A|decorative columnA
+Decorative Pillar B|decorative columnB
+Decorative Pillar A (Ruins)|decorative columnA（Abandoned ruins）
+Decorative Pillar B (Ruins)|decorative columnB（Abandoned ruins）
+Gold Bricks A|goldのextendべGreatA
+Gold Bricks B|goldのextendべGreatB
+Silver Bricks A|silverのextendべGreatA
+Silver Bricks B|silverのextendべGreatB
+Decorative Pillar A|decorative columnA
+Decorative Pillar B|decorative columnB
+Decorative Pillar A (Ruins)|decorative columnA（Abandoned ruins）
+Decorative Pillar B (Ruins)|decorative columnB（Abandoned ruins）
+Monument A|steleA
+Monument B|steleB
+Demon Statue|Golem
+Dragon Statue|dragon statue
+Dragon Statue|dragon statue
+Large Monument|bigきなstele
+Large Monument|bigきなstele
+Large Monument|bigきなstele
+Monument A|steleA
+Monument C|steleC
+Demon Statue|Golem
+Dragon Statue|dragon statue
+Dragon Statue|dragon statue
+Large Monument|bigきなstele
+Large Monument|bigきなstele
+Large Monument|bigきなstele
+Railings (Wood)|Step difference by handすり（wooden）
+Railings (Wood)|Step difference by handすり（wooden）
+Railings (Wood)|Step difference by handすり（wooden）
+Railings (Wood)|Step difference by handすり（wooden）
+Railings (Wood)|Step difference by handすり（wooden）
+Railings (Wood)|Step difference by handすり（wooden）
+Railings (Wood)|Step difference by handすり（wooden）
+Railings (Wood)|Step difference by handすり（wooden）
+Banister A (Wood)|stage by handすりA（wooden）
+Banister A (Wood)|stage by handすりA（wooden）
+Banister B (Stone)|stage by handすりB（stone）
+Banister B (Stone)|stage by handすりB（stone）
+Banister C (Temple)|stage by handすりC（temple）
+Banister C (Temple)|stage by handすりC（temple）
+Banister D (Castle)|stage by handすりD（city）
+Banister D (Castle)|stage by handすりD（city）
+Banister A (Wood)|stage by handすりA（wooden）
+Banister A (Wood)|stage by handすりA（wooden）
+Banister B (Stone)|stage by handすりB（stone）
+Banister B (Stone)|stage by handすりB（stone）
+Banister C (Temple)|stage by handすりC（temple）
+Banister C (Temple)|stage by handすりC（temple）
+Banister D (Castle)|stage by handすりD（city）
+Banister D (Castle)|stage by handすりD（city）
+Banister A (Wood)|stage by handすりA（wooden）
+Banister A (Wood)|stage by handすりA（wooden）
+Banister B (Stone)|stage by handすりB（stone）
+Banister B (Stone)|stage by handすりB（stone）
+Banister C (Temple)|stage by handすりC（temple）
+Banister C (Temple)|stage by handすりC（temple）
+Banister D (Castle)|stage by handすりD（city）
+Banister D (Castle)|stage by handすりD（city）

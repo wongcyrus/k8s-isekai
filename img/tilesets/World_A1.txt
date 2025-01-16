@@ -1,16 +1,16 @@
-﻿Sea|海
-Deep Sea|深い海
-Rock Shoal|岩礁
-Icebergs|氷山
-Poison Swamp|毒の沼
-Dead Trees|枯れ木
-Lava|溶岩
-Lava Bubbles|溶岩の泡
-Pond|池
-Boulder|岩
-Frozen Sea|凍った海
-Whirlpool|渦
-Land's End|大地の境界
-Endless Waterfall|下界に落ちる滝
-Cloud (Land's End)|雲（大地の境界）
-Cloud|雲
+﻿Sea|ocean
+Deep Sea|deepいocean
+Rock Shoal|rocky reef
+Icebergs|iceberg
+Poison Swamp|poisonのSwamp
+Dead Trees|dryれWood
+Lava|lava
+Lava Bubbles|lavaのBubble
+Pond|pool
+Boulder|rock
+Frozen Sea|frozenったocean
+Whirlpool|vortex
+Land's End|earthのrealm
+Endless Waterfall|Netherにfallちるtaki
+Cloud (Land's End)|Cloud（earthのrealm）
+Cloud|Cloud

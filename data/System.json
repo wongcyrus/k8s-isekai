@@ -46,7 +46,7 @@
   },
   "currencyUnit": "G",
   "defeatMe": { "name": "Defeat1", "pan": 0, "pitch": 100, "volume": 90 },
-  "editMapId": 2,
+  "editMapId": 1,
   "elements": [
     "",
     "physics",
@@ -60,9 +60,9 @@
     "dark"
   ],
   "equipTypes": ["", "arms", "shield", "head", "Body", "decoration"],
-  "gameTitle": "k8s-isekai",
+  "gameTitle": "Kubernetes Isekai",
   "gameoverMe": { "name": "Gameover1", "pan": 0, "pitch": 100, "volume": 90 },
-  "locale": "zh_CN",
+  "locale": "en",
   "magicSkills": [1],
   "menuCommands": [true, true, true, true, true, true],
   "optDisplayTp": true,
@@ -275,7 +275,7 @@
     "",
     ""
   ],
-  "versionId": 65480513,
+  "versionId": 21854304,
   "victoryMe": { "name": "Victory1", "pan": 0, "pitch": 100, "volume": 90 },
   "weaponTypes": [
     "",

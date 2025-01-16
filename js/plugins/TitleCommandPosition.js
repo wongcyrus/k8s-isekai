@@ -26,23 +26,23 @@
  */
 
 /*:ja
- * @plugindesc タイトルコマンドウィンドウのLocationをChangeします。
+ * @plugindesc タイトルコマンドウィンドウの位置を変更します。
  * @author Yoji Ojima
  *
  * @param Offset X
- * @desc Xcoordinatesのオフセットvalueです。
+ * @desc X座標のオフセット値です。
  * @default 0
  *
  * @param Offset Y
- * @desc Ycoordinatesのオフセットvalueです。
+ * @desc Y座標のオフセット値です。
  * @default 0
  *
  * @param Width
- * @desc コマンドウィンドウのframeです。
+ * @desc コマンドウィンドウの幅です。
  * @default 240
  *
  * @param Background
- * @desc backgroundタイプです。0: generally、1: darkくする、2: transparent
+ * @desc 背景タイプです。0: 通常、1: 暗くする、2: 透明
  * @default 0
  *
  * @help このプラグインには、プラグインコマンドはありません。

@@ -21,20 +21,20 @@
  */
 
 /*:ja
- * @plugindesc サイドビューバトルでtechnology/アイテムのBefore the nameのみexpressします。
- * @author Kannazukiサスケ
+ * @plugindesc サイドビューバトルで技/アイテムの名前のみ表示します。
+ * @author 神無月サスケ
  *
  * @param displayAttack
- * @desc Normal attackもexpressするか (1:する 0:しない)
+ * @desc 通常攻撃も表示するか (1:する 0:しない)
  * @default 0
  *
  * @param position
- * @desc Technical nameをexpressするLocation (0:Send to the leftせ, 1:central)
+ * @desc 技名を表示する位置 (0:左寄せ, 1:中央)
  * @default 1
  *
  * @help このプラグインには、プラグインコマンドはありません。
  *
- * ログをexpressせず、Technical nameのみをexpressすることで、warのテンポがseveral highwaysになります。
+ * ログを表示せず、技名のみを表示することで、戦闘のテンポが若干高速になります。
  */
 
 (function() {

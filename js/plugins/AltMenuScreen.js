@@ -10,7 +10,7 @@
  */
 
 /*:ja
- * @plugindesc メニューPictureのレイアウトをChangeします。
+ * @plugindesc メニュー画面のレイアウトを変更します。
  * @author Yoji Ojima
  *
  * @help このプラグインには、プラグインコマンドはありません。

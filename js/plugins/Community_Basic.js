@@ -32,35 +32,35 @@
  */
 
 /*:ja
- * @plugindesc basicなパラメーターをsettingsするプラグインです。
+ * @plugindesc 基本的なパラメーターを設定するプラグインです。
  * @author RM CoreScript team
  *
  * @help このプラグインにはプラグインコマンドはありません。
  *
  * @param cacheLimit
- * @desc portraitのメモリへのキャッシュのupper limit value (MPix)
+ * @desc 画像のメモリへのキャッシュの上限値 (MPix)
  * @default 10
  *
  * @param screenWidth
- * @desc Pictureサイズのframe
+ * @desc 画面サイズの幅
  * @default 816
  *
  * @param screenHeight
- * @desc Pictureサイズのhighさ
+ * @desc 画面サイズの高さ
  * @default 624
  *
  * @param changeWindowWidthTo
- * @desc valueがsettingsされたoccasion、ウインドウのframeをSpecifyしたvalueにChange
+ * @desc 値が設定された場合、ウインドウの幅を指定した値に変更
  *
  * @param changeWindowHeightTo
- * @desc valueがsettingsされたoccasion、ウインドウのhighさをSpecifyしたvalueにChange
+ * @desc 値が設定された場合、ウインドウの高さを指定した値に変更
  *
  * @param renderingMode
  * @desc レンダリングモード (canvas/webgl/auto)
  * @default auto
  *
  * @param alwaysDash
- * @desc プレイヤーがoftenダッシュするかどうかのinitial value (on/off)
+ * @desc プレイヤーが常時ダッシュするかどうかの初期値 (on/off)
  * @default off
  */
 

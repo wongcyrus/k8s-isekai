@@ -26,26 +26,26 @@
  */
 
 /*:ja
- * @plugindesc armsごとにNormal attackのスキルIDをChangeします。
- * @author Kannazukiサスケ
+ * @plugindesc 武器ごとに通常攻撃のスキルIDを変更します。
+ * @author 神無月サスケ
  *
  * @help このプラグインにはプラグインコマンドはありません。
  *
- *  armsの「メモ」barに、<skill_id:3> とBookいたoccasion、
- * Normal attackのinternational、3Fanのスキルがmovementします。
- * ※specialにdescribeがなければ、usually passり1Fanのスキルがadoptされます。
+ *  武器の「メモ」欄に、<skill_id:3> と書いた場合、
+ * 通常攻撃の際、3番のスキルが発動します。
+ * ※特に記述がなければ、通常通り1番のスキルが採用されます。
  *
  * チェックポイント:
- * - Er Dao Liuのoccasion、profitきwrist(Firstにdefinitionされたsquare)にholdっているスキルIDがadoptされます。
- * - スキルタイプは「なし」にするのがseeましいです。
- * さもなくば、technologyなどをseal upじられたとき、attackがcome outなくなります。
+ * - 二刀流の場合、利き腕(先に定義された方)に持っているスキルIDが採用されます。
+ * - スキルタイプは「なし」にするのが望ましいです。
+ * さもなくば、技などを封じられたとき、攻撃が出来なくなります。
  *
- * Scenarioされるuse:
- * - All attacks possibleなarms
- * - 2return attack、3return attackするarms
- * - Recovery magicをスキルにSpecifyしたoccasion、
- * 「attack」をchooseんだinternational、Flavor recipeのchoose択がcome out、そのNakamaをReplyします
- * - defenseコマンドなどとEqualになるarmsもpossibleです。
+ * 想定される用途:
+ * - 全体攻撃可能な武器
+ * - 2回攻撃、3回攻撃する武器
+ * - 回復魔法をスキルに指定した場合、
+ * 「攻撃」を選んだ際、味方の選択が出来、その仲間を回復します
+ * - 防御コマンドなどと同等になる武器も実現可能です。
  */
 
 (function() {

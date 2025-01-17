@@ -1,20 +1,4 @@
 [
-  null,
-  {
-    "id": 1,
-    "battlerName": "k8s-learner",
-    "characterIndex": 0,
-    "characterName": "k8s-learner",
-    "classId": 1,
-    "equips": [1, 1, 2, 3, 4],
-    "faceIndex": 0,
-    "faceName": "k8s-learner",
-    "traits": [],
-    "initialLevel": 1,
-    "maxLevel": 99,
-    "name": "k8s-learner",
-    "nickname": "",
-    "note": "",
-    "profile": ""
-  }
+null,
+{"id":1,"battlerName":"k8s-learner","characterIndex":0,"characterName":"k8s-learner","classId":1,"equips":[1,1,2,3,4],"faceIndex":0,"faceName":"k8s-learner","traits":[],"initialLevel":1,"maxLevel":99,"name":"k8s-learner","nickname":"","note":"","profile":""}
 ]

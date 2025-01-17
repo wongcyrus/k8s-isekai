@@ -7,11 +7,10 @@
 
 (function () {
   'use strict';
-  const baseUrl = 'https://4kig7tlso0.execute-api.us-east-1.amazonaws.com/Prod';
-  const email = 'cywong@vtc.edu.hk';
-  const game = 'game01';
-
-  let currentTask = '';
+  const urlParams = new URLSearchParams(window.location.search);
+  const baseUrl = urlParams.get('baseUrl');
+  const email = urlParams.get('email');
+  const game = urlParams.get('game');
   let lastResponse = null;
 
   let isCalling = false;
@@ -26,6 +25,9 @@
     isCalling = true;
 
     let url = `${baseUrl}/game-task?email=${email}&game=${game}`;
+    if (lastResponse?.next_game_phrase) {
+      url = `${baseUrl}/grader?email=${email}&game=${game}&phrase=${lastResponse.next_game_phrase}`;
+    }
     let xhr = new XMLHttpRequest();
     xhr.open('GET', url, true);
     xhr.onreadystatechange = function () {
@@ -34,16 +36,13 @@
         if (xhr.status === 200) {
           let json = JSON.parse(xhr.response);
           console.log(json);
-          if (json.game_phrase === 'SETUP' && json.status === 'OK') {
-            currentTask = json.message;
-            gameMessage.add(currentTask);
-
-            if (json.status !== 'OK') {
-              popitup(json.report_url);
-            }
-
-            lastResponse = json;
+          if (json.status !== 'OK') {
+            popitup(json.report_url);
           }
+          if (json.message) {
+            gameMessage.add(json.message);
+          }
+          lastResponse = json;
         }
       }
     };

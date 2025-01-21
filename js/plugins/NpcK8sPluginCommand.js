@@ -10,7 +10,7 @@
   const wrapTextLength = 55;
   const urlParams = new URLSearchParams(window.location.search);
   const baseUrl = urlParams.get('baseUrl');
-  const email = urlParams.get('email');
+  const apiKey = urlParams.get('apiKey');
   const game = urlParams.get('game');
   let lastResponse = null;
   let isCalling = false;
@@ -48,13 +48,14 @@
     if (isCalling) return;
     isCalling = true;
 
-    let url = `${baseUrl}/game-task?email=${email}&game=${game}`;
+    let url = `${baseUrl}/game-task?game=${game}`;
     if (lastResponse?.next_game_phrase) {
-      url = `${baseUrl}/grader?email=${email}&game=${game}&phrase=${lastResponse.next_game_phrase}&npcName=${npcName}`;
+      url = `${baseUrl}/grader?game=${game}&phrase=${lastResponse.next_game_phrase}&npcName=${npcName}`;
     }
 
     const xhr = new XMLHttpRequest();
     xhr.open('GET', url, true);
+    xhr.setRequestHeader('x-api-key', apiKey);
     xhr.onreadystatechange = function () {
       if (xhr.readyState === 4) {
         isCalling = false;

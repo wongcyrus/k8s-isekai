@@ -48,7 +48,7 @@
     if (isCalling) return;
     isCalling = true;
 
-    let url = `${baseUrl}/game-task?game=${game}`;
+    let url = `${baseUrl}/game-task?game=${game}&npcName=${npcName}`;
     if (lastResponse?.next_game_phrase) {
       url = `${baseUrl}/grader?game=${game}&phrase=${lastResponse.next_game_phrase}&npcName=${npcName}`;
     }
@@ -62,7 +62,7 @@
         if (xhr.status === 200) {
           const json = JSON.parse(xhr.response);
           console.log(json);
-          if (json.status !== 'OK') {
+          if (json.status !== 'OK' && json.report_url) {
             popitup(json.report_url);
           }
           if (json.message) {

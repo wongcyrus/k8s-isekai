@@ -13,7 +13,7 @@
   const apiKey = urlParams.get('apiKey');
   const game = urlParams.get('game');
   let lastResponse = null;
-  let isCalling = false;
+  let callCount = 0;
 
   const popitup = (url) => {
     window.open(url, 'name', 'height=800,width=800');
@@ -44,9 +44,32 @@
     return wrappedText;
   };
 
-  const callApi = (gameMessage, npcName) => {
-    if (isCalling) return;
-    isCalling = true;
+  const callApi = (npcName) => {
+    if (callCount == 0) {
+      $gameMessage.add('Hello!');
+    }
+    if (callCount > 0) {
+      let message = 'I am working on it now!';
+      if (lastResponse?.next_game_phrase) {
+        switch (lastResponse?.next_game_phrase) {
+          case 'SETUP':
+            message = 'I am setting up it for you!';
+            break;
+          case 'READY':
+            message = 'I am making sure it is ready for the challenge!';
+            break;
+          case 'CHALLENGE':
+            message = 'I am running the challenge now!';
+            break;
+          case 'CHECK':
+            message = 'I am checking the game now!';
+            break;
+        }
+      }
+      $gameMessage.add(message);
+      return;
+    }
+    callCount++;
 
     let url = `${baseUrl}/game-task?game=${game}&npcName=${npcName}`;
     if (lastResponse?.next_game_phrase) {
@@ -58,7 +81,7 @@
     xhr.setRequestHeader('x-api-key', apiKey);
     xhr.onreadystatechange = function () {
       if (xhr.readyState === 4) {
-        isCalling = false;
+        callCount = 0;
         if (xhr.status === 200) {
           const json = JSON.parse(xhr.response);
           console.log(json);
@@ -66,11 +89,11 @@
             popitup(json.report_url);
           }
           if (json.message) {
-            gameMessage.add(wrapText(json.message));
+            $gameMessage.add(wrapText(json.message));
           }
           lastResponse = json;
         } else {
-          gameMessage.add('Sorry I cannot connect to the server!');
+          $gameMessage.add('Sorry I cannot connect to the server!');
         }
       }
     };
@@ -84,7 +107,7 @@
     if (command === 'NpcK8sPluginCommand') {
       const npcName = args[0];
       console.log('NpcK8sPluginCommand Called by ' + npcName);
-      callApi($gameMessage, npcName);
+      callApi(npcName);
     }
   };
 })();

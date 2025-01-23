@@ -16,7 +16,7 @@
   let callCount = 0;
 
   const popitup = (url) => {
-    window.open(url, 'name', 'height=800,width=800');
+    window.open(url, 'name', 'scrollbars=1,resizable=1,width=1000,height=800');
     window.focus();
     return false;
   };

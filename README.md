@@ -23,3 +23,12 @@ https://github.com/wongcyrus/k8s-game-rule
 ## Demo
 
 [![#Kubernetes Isekai (Alpha) -  free #k8s #rpggame with free #awsacademy learner lab](https://img.youtube.com/vi/dIwNWwz681k/0.jpg)](https://youtu.be/dIwNWwz681k)
+
+## Core Developers
+
+Students from [Higher Diploma in Cloud and Data Centre Administration](https://www.vtc.edu.hk/admission/en/programme/it114115-higher-diploma-in-cloud-and-data-centre-administration/)
+
+- [錢弘毅](https://www.linkedin.com/in/%E5%BC%98%E6%AF%85-%E9%8C%A2-50bb23290/)
+- [Ho Chun Sun Don (何俊申)](https://www.linkedin.com/in/ho-chun-sun-don-%E4%BD%95%E4%BF%8A%E7%94%B3-660a94290/)
+- [Kit Fong Loo](https://www.linkedin.com/in/kit-fong-loo-910482347/)
+- [Yuehan WU](https://www.linkedin.com/in/yuehan-wu-a40612290/)

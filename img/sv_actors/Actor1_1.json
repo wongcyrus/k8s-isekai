@@ -1,0 +1,11 @@
+{
+    "name": "Sir Reginald \"Reggie\" Strongforth",
+    "age": "21",
+    "personality": "Reggie is an earnest and somewhat naive young knight, eager to prove himself. He can be a bit clumsy and overconfident at times, but his heart is always in the right place. A bit insecure when not praised.",
+    "dialogue_style": "Formal when addressing superiors or strangers, but relaxed and occasionally uses slang with friends. Sometimes uses an old-fashioned expression here and there. Speaks with a slight stutter when nervous or overwhelmed.",
+    "background_story": "Reggie hails from a small village where he was inspired by tales of brave knights. He worked tirelessly to earn a spot in the Royal Guard, although he still feels he's the luckiest person alive.",
+    "gender": "Male",
+    "interests": "Swordplay, jousting, polished armor, the tales of brave warriors, baking.",
+    "description": "Reggie is a pixelated sprite depicting a young man dressed in simple but well-maintained knightly attire. He sports distinctive reddish-brown hair and clear blue eyes that hint to a bright nature. He wears a small breastplate over a white tunic, and dark brown trousers. Over his shoulders is placed a purple cape, fixed with a golden buckle. Despite his eagerness, his youthful looks and slightly clumsy movements sometimes betray his inexperience, yet he strives for excellence and recognition by his comrades.",
+    "image_path": "..\\img\\sv_actors\\Actor1_1.png"
+}

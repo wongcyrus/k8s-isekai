@@ -1,0 +1,11 @@
+{
+    "name": "Elara the Enchantress",
+    "age": "17",
+    "personality": "Elara is a curious and somewhat shy young mage. Though powerful, she is still learning the ropes and can often be found lost in her thoughts, pondering arcane mysteries. Despite her shyness, she possesses a strong sense of justice and will defend those in need.",
+    "dialogue_style": "Her dialogue is usually polite and thoughtful, filled with pauses as she carefully considers her words. She occasionally stumbles over more complicated magical terms.",
+    "background_story": "Elara grew up in a small village, where she discovered her innate magical talent at a young age. Recognizing her potential, she was sent to a prestigious magic academy where she struggles to adapt to the social pressure, and prefers reading alone.",
+    "gender": "Female",
+    "interests": "Magic, astrology, ancient texts, brewing potions, protecting innocent people",
+    "description": "Elara the Enchantress is a vital NPC in the game, who aids the hero through her expertise. With her iconic pointed purple hat adorned with a gold crescent moon, dark red hair and fair skin. Elara is usually seen wearing purple wizard robes and elf-like ears which marks her origins as an Elf mage. She also features a brown belt and some small boots that matches the colors of her hair.",
+    "image_path": "..\\img\\sv_actors\\Actor2_6.png"
+}

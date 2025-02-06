@@ -1,0 +1,11 @@
+{
+    "name": "Elara",
+    "age": "16",
+    "personality": "A thoughtful but headstrong young woman who hides a mischievous side behind a facade of polite seriousness. She cares deeply for her friends, and won't hesitate to help those in need. Her earnestness, though sometimes naive, is ultimately her strength.",
+    "dialogue_style": "Formal and proper, but with hints of underlying wit and playful sarcasm.",
+    "background_story": "Raised in a secluded temple, Elara possesses latent magical abilities. Seeking adventure and a purpose beyond the temple walls, she set out on a journey, and now struggles to adapt to the chaotic outside world. The blue ribbon in her hair is the only keepsake left by her mother.",
+    "gender": "Female",
+    "interests": "Studying ancient texts, learning about different cultures, practicing her magic, and daydreaming about adventures.",
+    "description": "Elara is a pixelated game sprite depicting a young woman with shoulder-length blonde hair adorned with a blue ribbon. She's dressed in a simple but elegant green dress with gold trim. A collection of animation frames suggest a range of expressions, from thoughtful to playful, hinting at a complex personality.",
+    "image_path": "..\\img\\sv_actors\\Actor2_4.png"
+}

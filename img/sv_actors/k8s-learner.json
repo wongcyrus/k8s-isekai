@@ -1,0 +1,11 @@
+{
+    "name": "Caelus",
+    "age": "16",
+    "personality": "Headstrong, somewhat naive, but ultimately good-hearted. He's determined to prove himself and can be a bit reckless at times. He does have a playful side and enjoys a good-natured prank or joke when the situation allows.",
+    "dialogue_style": "Energetic and somewhat informal, uses contractions freely. Might occasionally lapse into slightly archaic phrasing due to his upbringing.",
+    "background_story": "Caelus hails from a secluded village known for its mastery of ice magic. Destined to be the next guardian of the village's sacred crystal, he felt trapped by the rigid traditions. One fateful night, driven by a yearning for adventure and the desire to prove his strength outside the village's sheltered walls, he ventured beyond the protective barrier, leaving to travel the world.",
+    "gender": "Male",
+    "interests": "Mastering his ice magic, exploring new places, making friends (even if he's not always good at it), and the stories of heroes from the past.",
+    "description": "Caelus is a young sprite character with short, spiky white-blue hair and piercing blue eyes. His outfit is predominantly blue, consisting of tunic-like top and matching pants. He also sports a light-gray cape-like accessory. The sprite appears to be in a fighting game, judging by the various combat stances and animations on display. Some sprites also show some mischief; there is one instance in which Caelus winks. ",
+    "image_path": "..\\img\\sv_actors\\k8s-learner.png"
+}

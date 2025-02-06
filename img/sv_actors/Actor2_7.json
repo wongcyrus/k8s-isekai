@@ -1,0 +1,11 @@
+{
+    "name": "Elara Meadowlight",
+    "age": "17",
+    "personality": "Elara is an enthusiastic and somewhat naive alchemist in training. She's always eager to help but can sometimes get things wrong due to her inexperience. Despite her flaws, she has a heart of gold and is fiercely loyal to her friends.",
+    "dialogue_style": "Elara's dialogue is sprinkled with excited exclamations and a tendency to over-explain. She often uses technical jargon without realizing her audience might not understand.",
+    "background_story": "Born in a secluded village known for its alchemists, Elara showed a natural aptitude for the craft from a young age. She left her village to seek advanced training in the capital city, hoping to one day create a potion that could cure any ailment.",
+    "gender": "Female",
+    "interests": "Alchemy, potion-making, herbology, reading ancient texts, helping others (sometimes successfully)",
+    "description": "Elara Meadowlight is a young alchemist with a head full of formulas and a heart full of optimism. She has green hair cut in a short bob style, and she wears round, gold-rimmed glasses that magnify her eager eyes. She's dressed in a long green robe. Her animations range from stirring a potion with fervor to looking intently into a concoction, demonstrating her passion for alchemy. Don't underestimate her size: the sprite\u2019s animation frames showcase a willingness to lie on the ground and research with hands on. Her design fits the classic JRPG archetype.",
+    "image_path": "..\\img\\sv_actors\\Actor2_7.png"
+}

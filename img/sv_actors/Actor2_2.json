@@ -1,0 +1,11 @@
+{
+    "name": "Lysander",
+    "age": "22",
+    "personality": "Lysander carries himself with a quiet confidence. While he's certainly capable in combat, he prefers observation and strategy. He often speaks in riddles or cryptic pronouncements.",
+    "dialogue_style": "Lysander's dialogue is typically measured and thoughtful, often filled with philosophical pondering. He avoids slang and relies on a formal, slightly archaic tone.",
+    "background_story": "Once a promising student at the Citadel, Lysander mysteriously left his studies to embark on a solitary journey, searching for a lost relic, it is said that it holds the key to unlocking unimaginable power.",
+    "gender": "Male",
+    "interests": "Ancient texts, philosophy, mastering combat skills",
+    "description": "Lysander is a young man dressed in dark, ornate mage armor accented with gold and purple details. He has light blue hair, styled in a face-framing cut. He wields magic, often seen gesturing with closed fists or an outstretched hand, a ready-to-fight stance, implying that he is skilled in combat, making him valuable whether as a party member or formidable antagonist.",
+    "image_path": "..\\img\\sv_actors\\Actor2_2.png"
+}

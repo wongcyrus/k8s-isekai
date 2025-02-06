@@ -1,0 +1,11 @@
+{
+    "name": "Flora",
+    "age": "18",
+    "personality": "Flora is a kind and optimistic young woman, always eager to lend a helping hand. She's known for her sunny disposition and her love for all things nature-related. However, she can be a bit naive and easily trusts others.",
+    "dialogue_style": "Flora's speech is sweet and gentle, often using flowery language and metaphors. She speaks with a cheerful tone, but she is also careful not to offend or upset anyone. She peppers her sentences with 'dear' and 'kindly'.",
+    "background_story": "Flora grew up in a small village nestled in a vibrant forest, where she learned about the healing properties of plants from her grandmother, a wise herbalist. When a mysterious blight began to wither the forest, Flora ventured out to seek a cure, determined to restore her home to its former glory.",
+    "gender": "Female",
+    "interests": "Gardening, herbalism, nature walks, poetry, and helping others.",
+    "description": "Flora is a charming sprite wearing a pink bonnet adorned with bright red flowers, a simple brown dress, and practical shoes. Her blonde hair peeks out from under her bonnet. She appears to be a kind herbalist. Her facial expressions hint at both determination and gentleness, reflecting her role as a healer and caretaker within the game world. Given her sprite animations, she's likely a support character or an NPC offering quests and helpful advice.",
+    "image_path": "..\\img\\sv_actors\\Actor3_6.png"
+}

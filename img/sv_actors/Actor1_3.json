@@ -1,0 +1,11 @@
+{
+    "name": "Roric",
+    "age": "17",
+    "personality": "Headstrong, impulsive, and fiercely loyal to his friends. He's quick to jump into action, sometimes without thinking things through, but he's always willing to put himself on the line for those he cares about. Underneath his brash exterior lies a genuine desire to prove himself and protect the innocent.",
+    "dialogue_style": "Direct and somewhat cocky, often using slang. His tone is usually enthusiastic, but can turn serious when the situation demands it.",
+    "background_story": "Orphaned at a young age, Roric grew up on the streets, learning to fend for himself. He discovered a natural talent for combat and was eventually taken in by a seasoned warrior, who taught him discipline and honed his skills. He now seeks to use his abilities to make the world a better place and avenge his family.",
+    "gender": "Male",
+    "interests": "Sparring, adventure, learning about different cultures, helping those in need, and honing his combat skills.",
+    "description": "Roric is a young warrior with spiky orange hair pulled back into a short ponytail. He is adorned with battle scars and wears practical, leather armor. He has a determined look in his bright blue eyes. His stance suggests readiness and a eagerness to participate in battles.",
+    "image_path": "..\\img\\sv_actors\\Actor1_3.png"
+}

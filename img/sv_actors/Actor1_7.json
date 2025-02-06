@@ -1,0 +1,11 @@
+{
+    "name": "Sir Gideon",
+    "age": "22",
+    "personality": "Brave, dedicated, but sometimes insecure and seeking approval.",
+    "dialogue_style": "Formal and respectful, with moments of doubt slipping through.",
+    "background_story": "Gideon is a young knight, recently promoted after a heroic deed, now grappling with the responsibilities and expectations of his new role.",
+    "gender": "Male",
+    "interests": "Swordsmanship, chivalry, proving himself, reading ancient legends.",
+    "description": "Sir Gideon, clad in ornate blue and gold armor, is a young knight character. The sprite's animation set suggests a range of emotions, from determination to hesitation. He is likely a melee combatant and a possible main character of the story. His armor detailing indicates he may be high-ranking and/or have a high skill level. From the various expressions that the sprite shows, Gideon may show a lot of expressions that the player can identify with, making him very relatable.",
+    "image_path": "..\\img\\sv_actors\\Actor1_7.png"
+}

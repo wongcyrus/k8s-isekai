@@ -91,7 +91,9 @@
           if (json.message) {
             $gameMessage.add(wrapText(json.message));
           }
-          lastResponse = json;
+          if (json.status === 'OK') {
+            lastResponse = json;
+          }
         } else {
           $gameMessage.add('Sorry I cannot connect to the server!');
         }

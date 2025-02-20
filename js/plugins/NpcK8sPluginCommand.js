@@ -71,9 +71,9 @@
     }
     callCount++;
 
-    let url = `${baseUrl}/game-task?game=${game}&npcName=${npcName}`;
+    let url = `${baseUrl}/game-task?game=${game}&npc=${npcName}`;
     if (lastResponse?.next_game_phrase) {
-      url = `${baseUrl}/grader?game=${game}&phrase=${lastResponse.next_game_phrase}&npcName=${npcName}`;
+      url = `${baseUrl}/grader?game=${game}&phrase=${lastResponse.next_game_phrase}&npc=${npcName}`;
     }
 
     const xhr = new XMLHttpRequest();

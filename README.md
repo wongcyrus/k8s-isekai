@@ -24,6 +24,33 @@ https://github.com/wongcyrus/k8s-game-rule
 
 [![#Kubernetes Isekai (Alpha) -  free #k8s #rpggame with free #awsacademy learner lab](https://img.youtube.com/vi/dIwNWwz681k/0.jpg)](https://youtu.be/dIwNWwz681k)
 
+# Development
+
+This game was created using [RPG maker](https://www.rpgmakerweb.com/), with a custom plugin, "NpcK8sPluginCommand.js," located in the "js\plugins" directory.
+You can modify the game within RPG Maker. To enable non-player characters (NPCs) to interact with the k8s-grader-api, you must configure the Plugin Command.
+
+## How to set the NPC NpcK8sPluginCommand?
+
+1. **Open the NPC Editor:** Right-click the NPC and select "Edit" from the context menu.
+
+   ![NPC Edit](img\readme\npc_edit.png)
+
+2. **Access Plugin Commands:** Within the NPC Editor, click the "Plugin Command" button.
+
+   ![Plugin](img\readme\plugin_command.png)
+
+3. **Define the Plugin Command:** Enter the desired command in the provided field. Ensure the command includes the unique NPC name as defined in the `NpcBackgroundTable`.
+
+   ![Set Commmand](img\readme\set_command.png)
+
+## Game Development and Testing
+
+1. Open the game folder in VS Code.
+2. Install the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension.
+3. Right-click `index.html` and select "Open with Live Server."
+4. Set the query parameters:
+   `?baseUrl=https://ApiGatewayApi.execute-api.us-east-1.amazonaws.com/Prod/&game=game01&apiKey=INDIVIDUAL_API_KEY`
+
 ## Core Developers
 
 Students from [Higher Diploma in Cloud and Data Centre Administration](https://www.vtc.edu.hk/admission/en/programme/it114115-higher-diploma-in-cloud-and-data-centre-administration/)

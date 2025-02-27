@@ -33,15 +33,15 @@ You can modify the game within RPG Maker. To enable non-player characters (NPCs)
 
 1. **Open the NPC Editor:** Right-click the NPC and select "Edit" from the context menu.
 
-   ![NPC Edit](img\readme\npc_edit.png)
+   ![NPC Edit](img/readme/npc_edit.png)
 
 2. **Access Plugin Commands:** Within the NPC Editor, click the "Plugin Command" button.
 
-   ![Plugin](img\readme\plugin_command.png)
+   ![Plugin](img/readme/plugin_command.png)
 
 3. **Define the Plugin Command:** Enter the desired command in the provided field. Ensure the command includes the unique NPC name as defined in the `NpcBackgroundTable`.
 
-   ![Set Commmand](img\readme\set_command.png)
+   ![Set Commmand](img/readme/set_command.png)
 
 ## Game Development and Testing
 

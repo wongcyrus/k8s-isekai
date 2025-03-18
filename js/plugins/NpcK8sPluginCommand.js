@@ -16,9 +16,21 @@
   let callCount = 0;
 
   const popitup = (url) => {
-    window.open(url, 'name', 'scrollbars=1,resizable=1,width=1000,height=800');
+    console.log('open ' + url);
+    let w = window.open(
+      url,
+      '_blank',
+      'scrollbars=1,resizable=1,width=1000,height=800',
+    );
+    if (w == null || typeof w == 'undefined') {
+      alert('Please allow popups for this site');
+    }
     window.focus();
-    return false;
+  };
+
+  const popitup2 = (url1, url2) => {
+    popitup(url1);
+    popitup(url2);
   };
 
   // Display the text response within the window limits
@@ -86,7 +98,9 @@
           const json = JSON.parse(xhr.response);
           console.log(json);
           if (json.status !== 'OK' && json.report_url) {
-            popitup(json.report_url);
+            if (json.report_url && json.easter_egg_url)
+              popitup2(json.easter_egg_url, json.report_url);
+            else if (json.report_url) popitup(json.report_url);
           }
           if (json.message) {
             $gameMessage.add(wrapText(json.message));

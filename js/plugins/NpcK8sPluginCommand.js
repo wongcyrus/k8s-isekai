@@ -106,6 +106,7 @@
             $gameMessage.add(wrapText(json.message));
           }
           if (json.status === 'OK') {
+            if (json.easter_egg_url) popitup(json.easter_egg_url);
             lastResponse = json;
           }
         } else {

@@ -83,11 +83,9 @@
     }
     callCount++;
 
-    let url = `${baseUrl}/game-task?game=${game}&npc=${npcName}`;
-    if (lastResponse?.next_game_phrase) {
-      url = `${baseUrl}/grader?game=${game}&phrase=${lastResponse.next_game_phrase}&npc=${npcName}`;
-    }
-
+    // Use the new unified /task endpoint
+    let url = `${baseUrl}/task?game=${game}&npc=${npcName}`;
+    
     const xhr = new XMLHttpRequest();
     xhr.open('GET', url, true);
     xhr.setRequestHeader('x-api-key', apiKey);

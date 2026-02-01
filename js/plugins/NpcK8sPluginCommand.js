@@ -14,6 +14,7 @@
   const game = urlParams.get('game');
   let lastResponse = null;
   let callCount = 0;
+  let pendingRequest = false; // Track if request is in flight
 
   const popitup = (url) => {
     console.log('open ' + url);
@@ -60,7 +61,7 @@
     if (callCount == 0) {
       $gameMessage.add('Hello!');
     }
-    if (callCount > 0) {
+    if (callCount > 0 || pendingRequest) {
       let message = 'I am working on it now!';
       if (lastResponse?.next_game_phrase) {
         switch (lastResponse?.next_game_phrase) {
@@ -82,6 +83,7 @@
       return;
     }
     callCount++;
+    pendingRequest = true; // Mark request as in flight
 
     // Use the new unified /task endpoint
     let url = `${baseUrl}/task?game=${game}&npc=${npcName}`;
@@ -92,6 +94,7 @@
     xhr.onreadystatechange = function () {
       if (xhr.readyState === 4) {
         callCount = 0;
+        pendingRequest = false; // Clear pending flag
         if (xhr.status === 200) {
           const json = JSON.parse(xhr.response);
           console.log(json);

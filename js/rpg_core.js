@@ -9165,7 +9165,7 @@ Decrypter.REMAIN = "0000000000";
 
 Decrypter.checkImgIgnore = function(url){
     for(var cnt = 0; cnt < this._ignoreList.length; cnt++) {
-        if(url === this._ignoreList[cnt]) return true;
+        if(url === this._ignoreList[cnt] || url.endsWith('/' + this._ignoreList[cnt]) || url.endsWith(this._ignoreList[cnt])) return true;
     }
     return false;
 };

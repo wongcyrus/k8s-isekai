@@ -11,6 +11,17 @@ function DataManager() {
     throw new Error('This is a static class');
 }
 
+function resolveGameAssetUrl(relativePath) {
+    if (typeof window !== 'undefined' && typeof window.resolveGameAssetPath === 'function') {
+        return window.resolveGameAssetPath(relativePath);
+    }
+    return relativePath;
+}
+
+function resolveGameAssetFilePath(folder, filename, extension) {
+    return resolveGameAssetUrl(folder + encodeURIComponent(filename) + extension);
+}
+
 var $dataActors       = null;
 var $dataClasses      = null;
 var $dataSkills       = null;
@@ -77,7 +88,7 @@ DataManager.loadDatabase = function() {
 
 DataManager.loadDataFile = function(name, src) {
     var xhr = new XMLHttpRequest();
-    var url = 'data/' + src;
+    var url = resolveGameAssetUrl('data/' + src);
     xhr.open('GET', url);
     xhr.overrideMimeType('application/json');
     xhr.onload = function() {
@@ -106,7 +117,7 @@ DataManager.isDatabaseLoaded = function() {
 DataManager.loadMapData = function(mapId) {
     if (mapId > 0) {
         var filename = 'Map%1.json'.format(mapId.padZero(3));
-        this._mapLoader = ResourceHandler.createLoader('data/' + filename, this.loadDataFile.bind(this, '$dataMap', filename));
+        this._mapLoader = ResourceHandler.createLoader(resolveGameAssetUrl('data/' + filename), this.loadDataFile.bind(this, '$dataMap', filename));
         this.loadDataFile('$dataMap', filename);
     } else {
         this.makeEmptyMap();
@@ -858,7 +869,7 @@ ImageManager.loadTitle2 = function(filename, hue) {
 
 ImageManager.loadBitmap = function(folder, filename, hue, smooth) {
     if (filename) {
-        var path = folder + encodeURIComponent(filename) + '.png';
+        var path = resolveGameAssetFilePath(folder, filename, '.png');
         var bitmap = this.loadNormalBitmap(path, hue || 0);
         bitmap.smooth = smooth;
         return bitmap;
@@ -975,7 +986,7 @@ ImageManager.reserveTitle2 = function(filename, hue, reservationId) {
 
 ImageManager.reserveBitmap = function(folder, filename, hue, smooth, reservationId) {
     if (filename) {
-        var path = folder + encodeURIComponent(filename) + '.png';
+        var path = resolveGameAssetFilePath(folder, filename, '.png');
         var bitmap = this.reserveNormalBitmap(path, hue || 0, reservationId || this._defaultReservationId);
         bitmap.smooth = smooth;
         return bitmap;
@@ -1058,7 +1069,7 @@ ImageManager.requestTitle2 = function(filename, hue) {
 
 ImageManager.requestBitmap = function(folder, filename, hue, smooth) {
     if (filename) {
-        var path = folder + encodeURIComponent(filename) + '.png';
+        var path = resolveGameAssetFilePath(folder, filename, '.png');
         var bitmap = this.requestNormalBitmap(path, hue || 0);
         bitmap.smooth = smooth;
         return bitmap;
@@ -1114,7 +1125,7 @@ AudioManager._meBuffer       = null;
 AudioManager._seBuffers      = [];
 AudioManager._staticBuffers  = [];
 AudioManager._replayFadeTime = 0.5;
-AudioManager._path           = 'audio/';
+AudioManager._path           = resolveGameAssetUrl('audio/');
 AudioManager._blobUrl        = null;
 
 Object.defineProperty(AudioManager, 'masterVolume', {
@@ -1822,7 +1833,7 @@ SceneManager.initGraphics = function() {
     Graphics.initialize(this._screenWidth, this._screenHeight, type);
     Graphics.boxWidth = this._boxWidth;
     Graphics.boxHeight = this._boxHeight;
-    Graphics.setLoadingImage('img/system/Loading.png');
+    Graphics.setLoadingImage(resolveGameAssetUrl('img/system/Loading.png'));
     if (Utils.isOptionValid('showfps')) {
         Graphics.showFps();
     }
@@ -2793,7 +2804,7 @@ function PluginManager() {
     throw new Error('This is a static class');
 }
 
-PluginManager._path         = 'js/plugins/';
+PluginManager._path         = resolveGameAssetUrl('js/plugins/');
 PluginManager._scripts      = [];
 PluginManager._errorUrls    = [];
 PluginManager._parameters   = {};

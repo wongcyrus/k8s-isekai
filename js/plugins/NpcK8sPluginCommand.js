@@ -8,10 +8,35 @@
 (function () {
   'use strict';
   const wrapTextLength = 55;
+  const PORTAL_STORAGE_KEYS = [
+    'k8s-student-portal-state-v1',
+    'k8s-exam-web-state-v1',
+  ];
   const urlParams = new URLSearchParams(window.location.search);
-  const wsUrl = urlParams.get('wsUrl');
-  const apiKey = urlParams.get('apiKey');
-  const game = urlParams.get('game');
+
+  const loadPortalState = () => {
+    for (const key of PORTAL_STORAGE_KEYS) {
+      try {
+        const raw = window.localStorage.getItem(key);
+        if (!raw) continue;
+        const parsed = JSON.parse(raw);
+        if (parsed && typeof parsed === 'object') {
+          return parsed;
+        }
+      } catch (error) {
+        console.log(`[NpcK8sPluginCommand] failed to parse portal state ${key}`, {
+          name: error && error.name ? error.name : 'Error',
+          message: error && error.message ? error.message : String(error),
+        });
+      }
+    }
+    return {};
+  };
+
+  const portalState = loadPortalState();
+  const wsUrl = urlParams.get('wsUrl') || portalState.gameWsUrl || '';
+  const apiKey = urlParams.get('apiKey') || portalState.apiKey || '';
+  const game = urlParams.get('game') || portalState.exerciseGame || portalState.game || '';
   let lastResponse = null;
   let callCount = 0;
   let pendingRequest = false; // Track if request is in flight
@@ -21,16 +46,84 @@
   let queuedSocketAction = null;
   let lastInstructionSignature = null;
 
+  const redactSensitiveValue = (key, value) => {
+    switch (key) {
+      case 'apiKey':
+        return '[redacted-api-key]';
+      case 'message':
+      case 'task_description':
+        return '[redacted-message]';
+      case 'report_url':
+      case 'easter_egg_url':
+        return '[redacted-url]';
+      default:
+        return value;
+    }
+  };
+
+  const sanitizeLogDetails = (details) => {
+    if (typeof details === 'string') {
+      try {
+        return sanitizeLogDetails(JSON.parse(details));
+      } catch (_error) {
+        return details;
+      }
+    }
+    if (Array.isArray(details)) {
+      return details.map((entry) => sanitizeLogDetails(entry));
+    }
+    if (!details || typeof details !== 'object') {
+      return details;
+    }
+
+    if (details instanceof Error) {
+      return {
+        name: details.name,
+        message: details.message,
+      };
+    }
+
+    const objectTag = Object.prototype.toString.call(details);
+    if (objectTag !== '[object Object]') {
+      const summary = {};
+      if (typeof details.type === 'string') {
+        summary.type = details.type;
+      }
+      if (typeof details.readyState === 'number') {
+        summary.readyState = details.readyState;
+      }
+      if (typeof details.code === 'number') {
+        summary.code = details.code;
+      }
+      if (typeof details.reason === 'string') {
+        summary.reason = details.reason;
+      }
+      return Object.keys(summary).length > 0 ? summary : `[${objectTag}]`;
+    }
+
+    const sanitized = {};
+    for (const [key, value] of Object.entries(details)) {
+      if (value && typeof value === 'object') {
+        const nestedTag = Object.prototype.toString.call(value);
+        sanitized[key] = nestedTag === '[object Object]' || Array.isArray(value)
+          ? sanitizeLogDetails(value)
+          : `[${nestedTag}]`;
+      } else {
+        sanitized[key] = redactSensitiveValue(key, value);
+      }
+    }
+    return sanitized;
+  };
+
   const logSocket = (message, details) => {
     if (typeof details === 'undefined') {
       console.log(`[NpcK8sPluginCommand] ${message}`);
       return;
     }
-    console.log(`[NpcK8sPluginCommand] ${message}`, details);
+    console.log(`[NpcK8sPluginCommand] ${message}`, sanitizeLogDetails(details));
   };
 
   const popitup = (url) => {
-    console.log('open ' + url);
     let w = window.open(
       url,
       '_blank',

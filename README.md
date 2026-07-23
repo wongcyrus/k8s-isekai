@@ -49,7 +49,44 @@ You can modify the game within RPG Maker. To enable non-player characters (NPCs)
 2. Install the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension.
 3. Right-click `index.html` and select "Open with Live Server."
 4. Set the query parameters:
-   `?baseUrl=https://ApiGatewayApi.execute-api.us-east-1.amazonaws.com/Prod/&game=game01&apiKey=INDIVIDUAL_API_KEY`
+   `?wsUrl=wss://GAME_WS_API.execute-api.us-east-1.amazonaws.com/Prod&game=game01&apiKey=INDIVIDUAL_API_KEY`
+
+### Local HTTPS test server with a self-signed certificate
+
+If you want to test the browser game from a local HTTPS origin, you can use the helper below.
+
+1. Create a local self-signed certificate:
+
+   ```bash
+   openssl req -x509 -newkey rsa:2048 -sha256 -nodes \
+     -keyout localhost-key.pem \
+     -out localhost-cert.pem \
+     -days 365 \
+     -subj "/CN=localhost"
+   ```
+
+2. Start the local HTTPS server from the repo root:
+
+   ```bash
+   python3 python_tools/local_https_server.py \
+     --host 127.0.0.1 \
+     --port 8443 \
+     --cert localhost-cert.pem \
+     --key localhost-key.pem
+   ```
+
+3. Open the game with HTTPS query parameters, for example:
+
+   ```text
+   https://127.0.0.1:8443/index.html?wsUrl=wss://GAME_WS_API.execute-api.us-east-1.amazonaws.com/Prod&game=game01&apiKey=INDIVIDUAL_API_KEY
+   ```
+
+Notes:
+
+- A local self-signed page can still call the AWS WebSocket API if the page is opened successfully in the browser and the WebSocket endpoint itself uses a valid `wss://` certificate.
+- Browsers do **not** apply normal CORS rules to WebSockets the same way they do for `fetch`/XHR, so the main requirement is that the page is loaded and the WebSocket target is `wss://...`, not `ws://...`.
+- You may need to manually trust or bypass the local certificate warning in the browser before the page and its JavaScript can run.
+- The game plugin now requires `wsUrl`; it no longer falls back to the HTTP `/task` endpoint.
 
 ## Core Developers
 

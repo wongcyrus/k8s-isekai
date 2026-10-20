@@ -9,9 +9,19 @@
   'use strict';
   const wrapTextLength = 55;
   const urlParams = new URLSearchParams(window.location.search);
-  const baseUrl = urlParams.get('baseUrl');
-  const apiKey = urlParams.get('apiKey');
-  const game = urlParams.get('game');
+  let portalState = {};
+  try {
+    const savedState = localStorage.getItem('k8s-student-portal-state-v1');
+    const parsedState = savedState ? JSON.parse(savedState) : {};
+    if (parsedState && typeof parsedState === 'object') {
+      portalState = parsedState;
+    }
+  } catch (error) {
+    console.warn('Unable to read saved student portal settings', error);
+  }
+  const baseUrl = urlParams.get('baseUrl') || portalState.baseUrl;
+  const apiKey = urlParams.get('apiKey') || portalState.apiKey;
+  const game = urlParams.get('game') || portalState.exerciseGame;
   let lastResponse = null;
   let callCount = 0;
 
@@ -57,6 +67,10 @@
   };
 
   const callApi = (npcName) => {
+    if (!baseUrl || !apiKey || !game) {
+      $gameMessage.add('Please open this game from the student portal so it can connect to the exercise service.');
+      return;
+    }
     if (callCount == 0) {
       $gameMessage.add('Hello!');
     }

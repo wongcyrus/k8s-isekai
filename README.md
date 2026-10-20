@@ -51,6 +51,8 @@ You can modify the game within RPG Maker. To enable non-player characters (NPCs)
 4. Set the query parameters:
    `?baseUrl=https://ApiGatewayApi.execute-api.us-east-1.amazonaws.com/Prod/&game=game01&apiKey=INDIVIDUAL_API_KEY`
 
+When deployed under the student portal, launch the RPG client from the portal so it can read the saved API endpoint and API key from same-origin browser storage. The selected game is passed in the launch URL. Standalone development can continue to use the query parameters above.
+
 ## Core Developers
 
 Students from [Higher Diploma in Cloud and Data Centre Administration](https://www.vtc.edu.hk/admission/en/programme/it114115-higher-diploma-in-cloud-and-data-centre-administration/)
